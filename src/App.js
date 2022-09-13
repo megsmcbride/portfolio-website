@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import './css/Intro.css'
 import $ from 'jquery';
 import { Link } from 'react-scroll';
 import Intro from './components/Intro'
@@ -31,13 +32,13 @@ function App() {
       .stop(true).delay(1500)
       .animate({
         left: "88%",
-      }, 1200);
+      }, 1600);
 
     $('.rectangle5')
       .stop(true).delay(2000)
       .animate({
         left: "85%",
-      }, 1800);
+      }, 2000);
 
   });
   return (
@@ -69,7 +70,7 @@ function App() {
           </ul>
         </nav>
       </header>
-      <div>
+      <div className="content">
 
       <section id="home"><Intro /></section>
       <section id="about">ABOUT</section>
