@@ -1,0 +1,20 @@
+.name {
+  color: #4f777b;
+  -webkit-animation: change-color 1s infinite;
+}
+
+@-webkit-keyframes change-color {
+  0% {
+    color: #de5499
+  }
+  25% {
+    color: #4f777b
+  }
+  50% {
+    color: #e99f4c
+  }
+  75% {
+    color: #eddcd9
+  }
+}
+
