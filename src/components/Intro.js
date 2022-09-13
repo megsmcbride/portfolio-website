@@ -1,13 +1,20 @@
-// function Intro() {
- 
-//   return (
-//     <div>
-     
-//       <h1>Hello, Welcome!<br /> I'm Megan<br /> a Full-Stack Web Developer.</h1>
+function Intro() {
 
-//     </div>
-//   );
-// };
+  return (
+    <div>
+      <p>
+        Hello, Welcome!
+        <br />
+        I'm
+        <span className="name"> Megan</span>
+        <br />
+        a Full-Stack Web Developer.
+      </p>
 
 
-// export default Intro;
+    </div>
+  );
+};
+
+
+export default Intro;
