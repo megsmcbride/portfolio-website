@@ -176,3 +176,10 @@ align-items: center;
 a {
   font-size: 1.5em;
 }
+
+#projects {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
