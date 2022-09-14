@@ -2,9 +2,11 @@ function Intro() {
 
   return (
     <div>
-      <p>
+      <p >
+        <div className="greeting">
         Hello, Welcome!
-        <br />
+
+        </div>
         I'm
         <span className="name"> Megan</span>
         <br />

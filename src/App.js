@@ -70,6 +70,7 @@ function App() {
               </Link>
             </li>
           </ul>
+        
           <div className="website-links">
           <SocialIcon url="https://github.com/megsmcbride" target="_blank" bgColor='#de5499' fgColor='#f2ebe9' style={{ height: 35, width: 35 }} />
           <SocialIcon url="https://www.linkedin.com/in/megsmcbride" target="_blank" bgColor='#de5499' fgColor='#f2ebe9' style={{ height: 35, width: 35, marginLeft: 15, marginRight: 15 }} />
