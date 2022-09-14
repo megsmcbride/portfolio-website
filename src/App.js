@@ -5,6 +5,7 @@ import $ from 'jquery';
 import { Link } from 'react-scroll';
 import Intro from './components/Intro'
 import About from './components/About'
+import { SocialIcon } from 'react-social-icons';
 
 window.$ = $;
 
@@ -69,6 +70,11 @@ function App() {
               </Link>
             </li>
           </ul>
+          <div className="website-links">
+          <SocialIcon url="https://github.com/megsmcbride" target="_blank" bgColor='#de5499' fgColor='#f2ebe9' style={{ height: 30, width: 30 }} />
+          <SocialIcon url="https://www.linkedin.com/in/megsmcbride" target="_blank" bgColor='#de5499' fgColor='#f2ebe9' style={{ height: 30, width: 30 }} />
+          <SocialIcon url="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=meganambermcbride@gmail.com" target="_blank" bgColor='#de5499' fgColor='#f2ebe9' style={{ height: 30, width: 30 }} />
+          </div>
         </nav>
       </header>
       <div className="content">
