@@ -3,10 +3,11 @@ function Intro() {
   return (
     <div>
       <p >
-        <div className="greeting">
+        <span className="greeting">
         Hello, Welcome!
 
-        </div>
+        </span>
+        <br />
         I'm
         <span className="name"> Megan</span>
         <br />

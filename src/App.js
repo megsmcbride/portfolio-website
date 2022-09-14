@@ -6,7 +6,9 @@ import { Link } from "react-scroll";
 import Intro from "./components/Intro";
 import About from "./components/About";
 import Projects from "./components/Projects";
+import Contact from "./components/Contact";
 import { SocialIcon } from "react-social-icons";
+
 
 window.$ = $;
 
@@ -108,7 +110,7 @@ function App() {
           <section id="projects">
             <Projects />
           </section>
-          <section id="contact">CONTACT ME</section>
+          <section id="contact"><Contact/></section>
           <div className="rectangle5"></div>
           <div className="rectangle4"></div>
           <div className="rectangle3"></div>
