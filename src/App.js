@@ -6,7 +6,6 @@ import { Link } from "react-scroll";
 import Intro from "./components/Intro";
 import About from "./components/About";
 import { SocialIcon } from "react-social-icons";
-import Carousel from "./components/Carousel";
 
 window.$ = $;
 
@@ -105,9 +104,7 @@ function App() {
           <section id="about">
             <About />
           </section>
-          <section id="projects">
-            <Carousel contents={[...Array(10)]} />
-          </section>
+          <section id="projects">          </section>
           <section id="contact">CONTACT ME</section>
           <div className="rectangle5"></div>
           <div className="rectangle4"></div>
