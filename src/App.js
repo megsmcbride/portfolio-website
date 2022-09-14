@@ -1,6 +1,7 @@
 import React from "react";
-import "./App.css";
+import "./css/App.css";
 import "./css/Intro.css";
+import "./css/Contact.css"
 import $ from "jquery";
 import { Link } from "react-scroll";
 import Intro from "./components/Intro";
