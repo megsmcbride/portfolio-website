@@ -71,9 +71,9 @@ function App() {
             </li>
           </ul>
           <div className="website-links">
-          <SocialIcon url="https://github.com/megsmcbride" target="_blank" bgColor='#de5499' fgColor='#f2ebe9' style={{ height: 30, width: 30 }} />
-          <SocialIcon url="https://www.linkedin.com/in/megsmcbride" target="_blank" bgColor='#de5499' fgColor='#f2ebe9' style={{ height: 30, width: 30 }} />
-          <SocialIcon url="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=meganambermcbride@gmail.com" target="_blank" bgColor='#de5499' fgColor='#f2ebe9' style={{ height: 30, width: 30 }} />
+          <SocialIcon url="https://github.com/megsmcbride" target="_blank" bgColor='#de5499' fgColor='#f2ebe9' style={{ height: 35, width: 35 }} />
+          <SocialIcon url="https://www.linkedin.com/in/megsmcbride" target="_blank" bgColor='#de5499' fgColor='#f2ebe9' style={{ height: 35, width: 35, marginLeft: 15, marginRight: 15 }} />
+          <SocialIcon url="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=meganambermcbride@gmail.com" target="_blank" bgColor='#de5499' fgColor='#f2ebe9' style={{ height: 35, width: 35 }} />
           </div>
         </nav>
       </header>
