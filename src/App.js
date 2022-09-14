@@ -5,6 +5,7 @@ import $ from "jquery";
 import { Link } from "react-scroll";
 import Intro from "./components/Intro";
 import About from "./components/About";
+import Projects from "./components/Projects";
 import { SocialIcon } from "react-social-icons";
 
 window.$ = $;
@@ -104,7 +105,9 @@ function App() {
           <section id="about">
             <About />
           </section>
-          <section id="projects">          </section>
+          <section id="projects">
+            <Projects />
+          </section>
           <section id="contact">CONTACT ME</section>
           <div className="rectangle5"></div>
           <div className="rectangle4"></div>
