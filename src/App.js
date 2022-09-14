@@ -23,13 +23,13 @@ function App() {
       .stop(true).delay(500)
       .animate({
         left: "94%",
-      }, 1100);
+      }, 1000);
 
     $('.rectangle3')
       .stop(true).delay(1000)
       .animate({
         left: "91%",
-      }, 1200);
+      }, 1000);
 
     $('.rectangle4')
       .stop(true).delay(1500)
@@ -75,7 +75,6 @@ function App() {
           <div className="website-links">
           <SocialIcon url="https://github.com/megsmcbride" target="_blank" bgColor='#de5499' fgColor='#f2ebe9' style={{ height: 35, width: 35 }} />
           <SocialIcon url="https://www.linkedin.com/in/megsmcbride" target="_blank" bgColor='#de5499' fgColor='#f2ebe9' style={{ height: 35, width: 35, marginLeft: 15, marginRight: 15 }} />
-          <SocialIcon url="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=meganambermcbride@gmail.com" target="_blank" bgColor='#de5499' fgColor='#f2ebe9' style={{ height: 35, width: 35 }} />
           </div>
         </nav>
       </header>
