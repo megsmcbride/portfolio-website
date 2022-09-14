@@ -4,6 +4,7 @@ import './css/Intro.css'
 import $ from 'jquery';
 import { Link } from 'react-scroll';
 import Intro from './components/Intro'
+import About from './components/About'
 
 window.$ = $;
 
@@ -73,7 +74,7 @@ function App() {
       <div className="content">
 
       <section id="home"><Intro /></section>
-      <section id="about">ABOUT</section>
+      <section id="about"><About /></section>
       <section id="projects">PROJECTS</section>
       <section id="contact">CONTACT ME</section>
       <div className="rectangle5"></div>
