@@ -7,6 +7,7 @@ import Intro from './components/Intro'
 import About from './components/About'
 import { SocialIcon } from 'react-social-icons';
 
+
 window.$ = $;
 
 function App() {
@@ -22,13 +23,13 @@ function App() {
       .stop(true).delay(500)
       .animate({
         left: "94%",
-      }, 1000);
+      }, 1100);
 
     $('.rectangle3')
       .stop(true).delay(1000)
       .animate({
         left: "91%",
-      }, 1000);
+      }, 1200);
 
     $('.rectangle4')
       .stop(true).delay(1500)
