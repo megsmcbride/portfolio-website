@@ -50,22 +50,22 @@ function App() {
         <nav className="nav__container__actions">
           <ul>
           <li>
-              <Link activeClass="active" smooth spy to="home">
+              <Link smooth spy to="home">
                HOME
               </Link>
             </li>
             <li>
-              <Link activeClass="active" smooth spy to="about">
+              <Link smooth spy to="about">
                 ABOUT
               </Link>
             </li>
             <li>
-              <Link activeClass="active" smooth spy to="projects">
+              <Link  smooth spy to="projects">
                 PROJECTS
               </Link>
             </li>
             <li>
-              <Link activeClass="active" smooth spy to="contact">
+              <Link  smooth spy to="contact">
                 CONTACT ME
               </Link>
             </li>
