@@ -14,6 +14,8 @@ import { SocialIcon } from "react-social-icons";
 window.$ = $;
 
 function App() {
+
+  window.history.pushState({}, null, "/");
   $(document).ready(function () {
     $(".rectangle1").stop(true).animate(
       {
