@@ -1,4 +1,4 @@
-import React, { useState, useRef } from "react";
+import React, { useRef } from "react";
 import emailjs from '@emailjs/browser';
 
 function Contact() {
@@ -17,20 +17,25 @@ function Contact() {
   };
   return (
     <>
+    <div>
       <h1>Contact Me</h1>
-      <div className="contact-form">
-      <form ref={form} onSubmit={(e) => sendEmail(e)}>
+      <div >
+      <form className="contact-form" ref={form} onSubmit={(e) => sendEmail(e)}>
+          <div>
+            
+          </div>
           <label>Name</label>
-          <input type="text" name="name" />
+          <input type="text" name="name" placeholder="your name"/>
 
           <label>Email</label>
-          <input type="email" name="email" />
+          <input type="email" name="email" placeholder="your email"/>
 
           <label>Message</label>
-          <textarea name="message" />
-          <input type="submit" value="Send" />
+          <textarea name="message" placeholder="your message"/>
+          <button  type="submit" value="Send" > Send </button>
         </form>
       </div>
+    </div>
     </>
   );
 }
