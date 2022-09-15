@@ -31,14 +31,15 @@
 
 h1 {
   text-align: center;
-  font-size: 6vw;
+  font-size: 7vw;
   margin-bottom: 10px;
+  margin-top: 0px;
 }
 
 .contact-form label {
   margin-top: 30px;
   margin-bottom: 5px;
-  font-size: 3vw;
+  font-size: 2.4vw;
   color: #de5499;
 }
 
@@ -51,6 +52,6 @@ h1 {
   font-family: "Righteous", cursive;
   font-weight: 600;
   font-size: 2.4vw;
-  border-radius: 5px;
+  border-radius: 15px;
   margin-top: 25px;
 }
