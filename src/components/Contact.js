@@ -1,42 +1,39 @@
-import React, { useState } from 'react';
-import { FormControl, FormLabel, Input, FormHelperText, FormErrorMessage} from '@chakra-ui/react';
+import React, { useState, useRef } from "react";
+import emailjs from '@emailjs/browser';
+// require('dotenv').config()
 
 function Contact() {
-  const [input, setInput] = useState('')
+  const form = useRef();
 
-  const handleInputChange = (e) => setInput(e.target.value)
+  const sendEmail = (e) => {
+    e.preventDefault();
 
-  const isError = input === ''
-
+    emailjs.sendForm(REACT_APP_SERVICE_ID, REACT_APP_TEMPLATE_ID, form.current, REACT_APP_PUBLIC_KEY)
+      .then((result) => {
+        console.log(result.text);
+      }, (error) => {
+        console.log(error.text);
+      });
+    e.target.reset()
+  };
   return (
-<>
-  <h1>Contact Me</h1>
-  <div className="contact-form">
-  <FormControl isInvalid={isError}>
-      <FormLabel>Name</FormLabel>
-      <Input
-        type='email'
-        value={input}
-        onChange={handleInputChange}
-      />
-          <FormLabel>Email</FormLabel>
-      <Input
-        type='email'
-        value={input}
-        onChange={handleInputChange}
-      />
-          <FormLabel>Email</FormLabel>
-      <Input
-        type='email'
-        value={input}
-        onChange={handleInputChange}
-      />
-    </FormControl>
+    <>
+      <h1>Contact Me</h1>
+      <div className="contact-form">
+      <form ref={form} onSubmit={(e) => sendEmail(e)}>
+          <label>Name</label>
+          <input type="text" name="name" />
 
-  </div>
-</>
-  )
-};
+          <label>Email</label>
+          <input type="email" name="email" />
 
+          <label>Message</label>
+          <textarea name="message" />
+          <input type="submit" value="Send" />
+        </form>
+      </div>
+    </>
+  );
+}
 
 export default Contact;
