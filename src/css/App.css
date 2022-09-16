@@ -98,7 +98,7 @@ section {
   height: 100vh;
   font-size: 3.5vw;
   font-weight: 100;
-  padding-right: 100px;
+  /* padding-right: 100px; */
 }
 
 .nav {
@@ -162,12 +162,6 @@ li:hover {
   color: #264143;
 }
 
-.details {
-  font-family: 'Lato', sans-serif;
-  font-weight: 300;
-  font-size: 1.5vw;
-
-}
 
 .website-links {
 display: flex;
