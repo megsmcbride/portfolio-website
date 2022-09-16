@@ -98,6 +98,7 @@ section {
   height: 100vh;
   font-size: 3.5vw;
   font-weight: 100;
+  padding-right: 100px;
 }
 
 .nav {
@@ -164,7 +165,7 @@ li:hover {
 .details {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
-  font-size: 25px;
+  font-size: 1.5vw;
 
 }
 
@@ -195,4 +196,11 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+h1 {
+  text-align: center;
+  font-size: 7vw;
+  margin-bottom: 50px;
+  margin-top: 0px;
 }

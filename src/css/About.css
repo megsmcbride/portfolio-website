@@ -1,0 +1,16 @@
+.about-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  width: 60vw;
+  padding: 40px 40px;
+  background-color: #f2ebe9;
+  border-radius: 20px;
+}
+
+.photo-me {
+  width: 25vw;
+  height: 25vw;
+  margin-right: 40px;
+  border-radius: 15px;
+}
