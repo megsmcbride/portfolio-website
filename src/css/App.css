@@ -21,7 +21,7 @@ body {
   left: -60%;
   right: 0;
   width: 1600px;
-  height: 450vh;
+  height: 500vh;
   background-color: #eddcd9;
   opacity: 1;
   border-left-style: solid;
@@ -37,7 +37,7 @@ body {
   left: -60%;
   right: 0;
   width: 1500px;
-  height: 450vh;
+  height: 500vh;
   background-color: #eddcd9;
   opacity: 1;
   border-left-style: solid;
@@ -52,7 +52,7 @@ body {
   left: -60%;
   right: 0;
   width: 1500px;
-  height: 450vh;
+  height: 500vh;
   background-color: #eddcd9;
   opacity: 1;
   border-left-style: solid;
@@ -67,7 +67,7 @@ body {
   left: -60%;
   right: 0;
   width: 1700px;
-  height: 450vh;
+  height: 500vh;
   background-color: #eddcd9;
   opacity: 1;
   border-left-style: solid;
@@ -82,7 +82,7 @@ body {
   left: -60%;
   right: 0;
   width: 1000vw;
-  height: 450vh;
+  height: 500vh;
   flex-grow: 1;
   background-color: #eddcd9;
   opacity: 1;
@@ -96,7 +96,7 @@ body {
 section {
   display: grid;
   place-items: center;
-  height: 100vh;
+  min-height: 100vh;
   font-size: 3.5vw;
   font-weight: 100;
   margin-top: 0;
@@ -198,9 +198,4 @@ h1 {
   font-size: calc(10px + 5vw);
   margin-bottom: 50px;
   margin-top: 0px;
-}
-
-.SocialIcon {
-  width: 2vw;
-  height: 2vw;
 }
