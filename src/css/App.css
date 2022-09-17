@@ -1,7 +1,4 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,400");
-html, body {
-  /* overflow-x: clip; */
-}
 
 body {
   background-color: #eddcd9;
@@ -201,4 +198,9 @@ h1 {
   font-size: calc(10px + 5vw);
   margin-bottom: 50px;
   margin-top: 0px;
+}
+
+.SocialIcon {
+  width: 2vw;
+  height: 2vw;
 }

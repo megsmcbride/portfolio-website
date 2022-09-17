@@ -10,6 +10,7 @@ import About from "./components/About";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import { SocialIcon } from "react-social-icons";
+import { FaLinkedin, FaGithubSquare} from "react-icons/fa";
 
 
 window.$ = $;
@@ -87,7 +88,7 @@ function App() {
                 target="_blank"
                 bgColor="#de5499"
                 fgColor="#f2ebe9"
-                style={{ height: 35, width: 35 }}
+                style={{ height: "2.4vw", width: "2.4vw" }}
               />
               <SocialIcon
                 url="https://www.linkedin.com/in/megsmcbride"
@@ -95,12 +96,13 @@ function App() {
                 bgColor="#de5499"
                 fgColor="#f2ebe9"
                 style={{
-                  height: 35,
-                  width: 35,
+                  height: "2.4vw", 
+                  width: "2.4vw",
                   marginLeft: 15,
                   marginRight: 15,
                 }}
               />
+    
             </div>
           </nav>
         </header>
