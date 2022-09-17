@@ -11,6 +11,7 @@ body {
   font-family: 'Righteous', cursive;
   position: relative;
   overflow-x: hidden;
+  overflow-y: hidden;
  }
 
 
@@ -183,9 +184,7 @@ a {
     font-size: 2.7vw;
   }
 }
-#home {
-  margin-top: -70px;
-}
+
 
 
 #projects {

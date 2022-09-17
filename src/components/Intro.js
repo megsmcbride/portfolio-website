@@ -1,7 +1,7 @@
 function Intro() {
   return (
     <div>
-      <p>
+      <p style={{marginBottom: "0px"}}>
         <span className="greeting">Hello, Welcome!</span>
       </p>
       <p className="intro">

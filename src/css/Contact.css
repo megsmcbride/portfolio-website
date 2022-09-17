@@ -3,18 +3,20 @@
   flex-direction: column;
   padding: 5vw 8vw;
   background-color: #f2ebe9;
-  border-radius: 20px;
+  border-radius: 25px;
   width: 35vw;
 }
 
 .contact-form input {
   background-color: #eddcd9;
-  border: 0;
+  border: #de5499 1px solid;
   border-radius: 5px;
   padding: 10px 20px;
   font-family: "Lato", sans-serif;
   font-weight: bold;
   font-size: 2vw;
+  margin-top: 30px;
+
 }
 
 .contact-form textarea {
@@ -25,6 +27,8 @@
   padding: 10px 20px;
   font-family: "Lato", sans-serif;
   font-weight: 900;
+  border: #de5499 1px solid;
+  margin-top: 30px;
 }
 
 

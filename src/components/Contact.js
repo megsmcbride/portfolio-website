@@ -18,21 +18,17 @@ function Contact() {
   return (
     <>
     <div>
-      <h1>Contact Me</h1>
+      <h1>Connect with me</h1>
       <div >
       <form className="contact-form" ref={form} onSubmit={(e) => sendEmail(e)}>
           <div>
             
           </div>
-          <label>Name</label>
-          <input type="text" name="name" placeholder="your name"/>
-
-          <label>Email</label>
-          <input type="email" name="email" placeholder="your email"/>
-
-          <label>Message</label>
-          <textarea name="message" placeholder="your message"/>
-          <button  type="submit" value="Send" > Send </button>
+     
+          <input type="text" name="name" placeholder="Name"/>
+          <input type="email" name="email" placeholder="Email"/>
+          <textarea name="message" placeholder="Message"/>
+          <button  type="submit" value="Send" > Submit </button>
         </form>
       </div>
     </div>
