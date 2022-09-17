@@ -1,13 +1,16 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,400");
+html, body {
+  /* overflow-x: clip; */
+}
+
 body {
   background-color: #eddcd9;
   font-family: 'Righteous', cursive;
-  overflow-x: hidden;
-
 }
  .content{
   font-family: 'Righteous', cursive;
   position: relative;
+  overflow-x: hidden;
  }
 
 
@@ -98,8 +101,8 @@ section {
   height: 100vh;
   font-size: 3.5vw;
   font-weight: 100;
-  /* padding-right: 100px; */
-}
+  margin-top: 0;
+ } 
 
 .nav {
   display: flex;
