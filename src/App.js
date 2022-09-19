@@ -85,7 +85,8 @@ function App() {
                 target="_blank"
                 bgColor="#de5499"
                 fgColor="#f2ebe9"
-                style={{ height: "2.4vw", width: "2.4vw" }}
+                style={{ height: "2.4vw", width: "2.4vw",  maxHeight: "40px",
+                maxWidth: "40px",}}
               />
               <SocialIcon
                 url="https://www.linkedin.com/in/megsmcbride"
@@ -94,9 +95,11 @@ function App() {
                 fgColor="#f2ebe9"
                 style={{
                   height: "2.4vw",
+                  maxHeight: "40px",
+                  maxWidth: "40px",
                   width: "2.4vw",
-                  marginLeft: 15,
-                  marginRight: 15,
+                  marginLeft: '1.5vw',
+              
                 }}
               />
             </div>

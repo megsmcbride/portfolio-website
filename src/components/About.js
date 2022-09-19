@@ -126,10 +126,10 @@ function About() {
         
           <br />
 
-          <strong className="reach-me">
+          <i className="reach-me">
             I'd love to chat, feel free to reach out to me by Linkedin, email or
             the contact form below!
-          </strong>
+          </i>
         </div>
       </div>
     </div>
