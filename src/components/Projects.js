@@ -19,7 +19,7 @@ function Projects() {
       items: 2,
     },
     tablet: {
-      breakpoint: { max: 1200, min: 0 },
+      breakpoint: { max: 1525, min: 0 },
       items: 1,
     },
   };
@@ -34,7 +34,7 @@ function Projects() {
             arrows={false}
             draggable={true}
             swipeable={true}
-            autoPlay={false}
+            autoPlay={true}
           >
             <div className="item">
               <div className="image-container">
