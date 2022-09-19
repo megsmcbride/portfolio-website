@@ -7,53 +7,95 @@ import tweeter from "../images/tweeter.png";
 import scheduler from "../images/scheduler.png";
 import looseleaf from "../images/looseleaf.png";
 import portfolio from "../images/portfolio.png";
-import Link from "react-scroll/modules/components/Link";
 
 function Projects() {
   const responsive = {
     superLargeDesktop: {
       // the naming can be any, depends on you.
       breakpoint: { max: 4000, min: 3000 },
-      items: 2
+      items: 2,
     },
     desktop: {
-      breakpoint: { max: 3000, min: 1200},
-      items: 2
+      breakpoint: { max: 3000, min: 1200 },
+      items: 2,
     },
     tablet: {
       breakpoint: { max: 1200, min: 0 },
-      items: 1
-    }
+      items: 1,
+    },
   };
   return (
     <div className="projects-container">
       <h1>Projects</h1>
       <div className="carousel-container">
-        <div >
-          <Carousel responsive={responsive} arrows={false} draggable={true} swipeable={true} autoPlay={true}>
-          <div className="item">
-              <img src={portfolio} alt="portfolio" />
-                <a href="https://github.com/megsmcbride/TuneSquad" target="_blank">Portfolio</a>
+        <div>
+          <Carousel
+            responsive={responsive}
+            rewind={true}
+            arrows={false}
+            draggable={true}
+            swipeable={true}
+            autoPlay={false}
+          >
+            <div className="item">
+              <div className="image-container">
+                <img src={portfolio} alt="portfolio" />
+                </div>
+                <a
+                  href="https://github.com/megsmcbride/TuneSquad"
+                  target="_blank"
+                  rel="noreferrer"
+                  >
+                  Portfolio
+                </a>
             </div>
             <div className="item">
-              <img src={tunesquad} alt="tunesquad" />
-                <a href="https://github.com/megsmcbride/TuneSquad" target="_blank">TuneSquad</a>
+              <div className="image-container">
+                <img src={tunesquad} alt="tunesquad" />
+                </div>
+                <a
+                  href="https://github.com/megsmcbride/TuneSquad"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  TuneSquad
+                </a>
             </div>
             <div className="item">
-              <img src={jungle} alt="tunesquad" />
-              <h5>Jungle</h5>
+              <div className="image-container">
+                <img src={jungle} alt="tunesquad" />
+              </div>
+
+                <a href="https://github.com/megsmcbride/TuneSquad"
+                  target="_blank"
+                  rel="noreferrer">Jungle</a>
             </div>
             <div className="item">
-              <img src={tweeter} alt="tweeter" />
-              <h5>Tweeter</h5>
+              <div className="image-container">
+                <img src={tweeter} alt="tweeter" />
+              </div>
+
+                <a href="https://github.com/megsmcbride/TuneSquad"
+                  target="_blank"
+                  rel="noreferrer">Tweeter</a>
             </div>
             <div className="item">
-              <img src={scheduler} alt="scheduler" />
-              <h5>Scheduler</h5>
+              <div className="image-container">
+                <img src={scheduler} alt="scheduler" />
+              </div>
+
+                <a href="https://github.com/megsmcbride/TuneSquad"
+                  target="_blank"
+                  rel="noreferrer">Scheduler</a>
             </div>
             <div className="item">
-              <img src={looseleaf} alt="looseleaf" />
-              <h5>LooseLeaf</h5>
+              <div className="image-container">
+                <img src={looseleaf} alt="looseleaf" />
+              </div>
+
+                <a href="https://github.com/megsmcbride/TuneSquad"
+                  target="_blank"
+                  rel="noreferrer">LooseLeaf</a>
             </div>
           </Carousel>
         </div>
