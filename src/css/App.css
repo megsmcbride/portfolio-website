@@ -97,7 +97,7 @@ section {
   display: grid;
   place-items: center;
   min-height: 100vh;
-  font-size: 3.5vw;
+  font-size: 40px;
   font-weight: 100;
   margin-top: 0;
  } 

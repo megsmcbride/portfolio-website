@@ -1,25 +1,26 @@
 .about-container {
-
+  display: flex;
+  flex-direction: row;
   margin-top: 10px;
-  width: 1000px;
+  width: 600px;
   padding: 70px;
   background-color: #f2ebe9;
   border-radius: 20px;
+  box-shadow: 0 0.125rem 0.25rem 0 rgb(0 0 0 / 11%);
 }
 
 .photo-me {
   float: left;
-  width: 300px;
-  height: 300px;
-  margin: 20px; 
+  width: 200px;
+  height: 200px;
+  margin: 0 20px 20px 0;
   border-radius: 15px;
 }
 
-
 .details {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: 300;
-  font-size: 20px;
+  font-size: 15px;
   line-height: 30px;
   margin-top: 20px;
 }
@@ -29,11 +30,29 @@
   display: flex;
   text-align: center;
   font-weight: 900;
-
 }
-
-
 
 li {
   margin: 3px;
 }
+
+.tech-stack {
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.tech-stack img {
+  height: 35px;
+}
+
+
+
+@media screen and (max-width: 768px) { 
+ .about-container {
+   width: ;
+ }
+}
+
+
+
