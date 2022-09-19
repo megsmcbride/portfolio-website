@@ -11,7 +11,6 @@ import portfolio from "../images/portfolio.png";
 function Projects() {
   const responsive = {
     superLargeDesktop: {
-      // the naming can be any, depends on you.
       breakpoint: { max: 4000, min: 3000 },
       items: 2,
     },
@@ -42,7 +41,7 @@ function Projects() {
                 <img src={portfolio} alt="portfolio" />
                 </div>
                 <a
-                  href="https://github.com/megsmcbride/TuneSquad"
+                  href="https://github.com/megsmcbride/portfolio-website"
                   target="_blank"
                   rel="noreferrer"
                   >
@@ -63,37 +62,37 @@ function Projects() {
             </div>
             <div className="item">
               <div className="image-container">
-                <img src={jungle} alt="tunesquad" />
+                <img src={jungle} alt="jungle" />
               </div>
 
-                <a href="https://github.com/megsmcbride/TuneSquad"
+                <a href="https://github.com/megsmcbride/Jungle-Rails"
                   target="_blank"
                   rel="noreferrer">Jungle</a>
-            </div>
-            <div className="item">
-              <div className="image-container">
-                <img src={tweeter} alt="tweeter" />
-              </div>
-
-                <a href="https://github.com/megsmcbride/TuneSquad"
-                  target="_blank"
-                  rel="noreferrer">Tweeter</a>
             </div>
             <div className="item">
               <div className="image-container">
                 <img src={scheduler} alt="scheduler" />
               </div>
 
-                <a href="https://github.com/megsmcbride/TuneSquad"
+                <a href="https://github.com/megsmcbride/scheduler"
                   target="_blank"
                   rel="noreferrer">Scheduler</a>
+            </div>
+            <div className="item">
+              <div className="image-container">
+                <img src={tweeter} alt="tweeter" />
+              </div>
+
+                <a href="https://github.com/megsmcbride/tweeter"
+                  target="_blank"
+                  rel="noreferrer">Tweeter</a>
             </div>
             <div className="item">
               <div className="image-container">
                 <img src={looseleaf} alt="looseleaf" />
               </div>
 
-                <a href="https://github.com/megsmcbride/TuneSquad"
+                <a href="https://github.com/megsmcbride/LooseLeaf"
                   target="_blank"
                   rel="noreferrer">LooseLeaf</a>
             </div>

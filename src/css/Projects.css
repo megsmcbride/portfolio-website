@@ -17,9 +17,18 @@
 a {
   display: flex;
   font-size: 20px;
+
   margin-top: 5%;
   justify-content: center;
   color: #de5499;
+  text-decoration: none;
+}
+.item {
+ width: 300px;
+}
+
+a:hover {
+  color: #e99f4c;
 }
 
 .image-container {
@@ -38,11 +47,15 @@ h5:hover {
 @media screen and (max-width: 1200px) {
   .carousel-container {
     width: 40vw;
-    padding: 3vw;
+    padding: 4vw;
   }
 
   a {
     font-size: 1.8vw;
     text-decoration: none;
+  }
+  .image-container {
+    width: 40vw;
+    height: 25vh;
   }
 }
