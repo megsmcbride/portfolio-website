@@ -4,7 +4,7 @@ function About() {
     <div>
       <h1> About </h1>
       <div className="about-container">
-        <div>
+        <div className="left-details">
           <img className="photo-me" src={me} alt="megan" />
           <div className="tech-stack">
             <p> Languages: </p>
@@ -123,6 +123,7 @@ function About() {
           <li>
             Currently learning <strong>TypeScript</strong> and  <strong>Angular</strong> 
           </li>
+        
           <br />
 
           <strong className="reach-me">

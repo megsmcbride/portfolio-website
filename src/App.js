@@ -74,7 +74,7 @@ function App() {
               </li>
               <li>
                 <Link smooth spy to="contact">
-                  CONTACT ME
+                  CONTACT
                 </Link>
               </li>
             </ul>
