@@ -1,0 +1,50 @@
+
+.carousel-container {
+  padding: 50px;
+  width: 650px;
+  background-color: #f2ebe9;
+  border-radius: 10px;
+  box-shadow: 0 0.125rem 0.25rem 0 rgb(0 0 0 / 11%);
+
+}
+
+.carousel-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 0.125rem 0.25rem 0 rgb(0 0 0 / 11%);
+
+}
+
+
+h5 {
+  font-size: 20px;
+  text-align: center;
+  color: #de5499;
+}
+
+h5:hover {
+  text-decoration: none;
+}
+
+
+
+.projects-container {
+  margin-top: 20vh;
+}
+
+@media screen and (max-width: 1200px){
+  .carousel-container {
+    width: 40vw;
+    padding: 3vw;
+
+  }
+
+  h5 {
+    font-size: 1.8vw;
+    text-decoration: none;
+  }
+  
+   }
+

@@ -64,46 +64,6 @@ function About() {
               />
             </p>
 
-            <p> Systems & Databases: </p>
-            <p>
-              <img
-                alt="postgresql"
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original-wordmark.svg"
-              />
-              <img
-                alt="git"
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg"
-              />
-            </p>
-
-            <p> Testing & More: </p>
-
-            <p>
-              <img
-                alt="mocha"
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mocha/mocha-plain.svg"
-              />
-              <img
-                alt="chai"
-                src="https://avatars.githubusercontent.com/u/1515293?s=280&v=4"
-              />
-              <img
-                alt="jest"
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg"
-              />
-              <img
-                alt="cypress"
-                src="https://icons-for-free.com/download-icon-cypress-1324440144114984250_512.png"
-              />
-              <img
-                alt="storybook"
-                src="https://avatars.githubusercontent.com/u/22632046?s=200&v=4"
-              />
-              <img
-                alt="eslint"
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/eslint/eslint-original-wordmark.svg"
-              />
-            </p>
           </div>
         </div>
         <div style={{ margin: "0 0 0 0" }} className="details">
