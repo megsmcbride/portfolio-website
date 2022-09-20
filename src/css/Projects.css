@@ -1,6 +1,6 @@
 .projects-container {
-  margin-top: 20vh;
-} 
+  margin-top: 10vh;
+}
 
 .carousel-container {
   background-color: #f2ebe9;
@@ -11,22 +11,18 @@
   border-radius: 10px;
 }
 
-ul {
-  gap: 0rem !important;
-}
-
-ul.control-dots { 
+ul.control-dots {
   display: flex;
   justify-content: center;
   margin-top: 30px;
- } 
+}
 
 .carousel-container img {
   width: 100px;
   height: 400px;
   object-fit: cover;
   box-shadow: 0 0.125rem 0.25rem 0 rgb(0 0 0 / 11%);
-margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .carousel-container a {
@@ -40,7 +36,6 @@ margin-bottom: 30px;
 .carousel-container p {
   font-family: "Lato", sans-serif;
   font-weight: 900;
-
 }
 
 .item {
@@ -55,28 +50,24 @@ a:hover {
   text-decoration: none;
 }
 
- @media screen and (max-width: 1500px) {
+@media screen and (max-width: 1500px) {
   .carousel-container {
     width: 40vw;
     padding: 2vw;
   }
- 
 
   .carousel-container img {
     width: 35vw;
     height: 30vw;
-
   }
   .carousel-container a {
     font-size: 1.8vw;
   }
   .carousel-container p {
-  font-size: 1.2vw;
-  
+    font-size: 1.2vw;
   }
 
   .item {
     margin-bottom: 10vw;
   }
-  
 }
