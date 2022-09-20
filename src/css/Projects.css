@@ -11,6 +11,10 @@
   border-radius: 10px;
 }
 
+ul {
+  gap: 0rem !important;
+}
+
 ul.control-dots { 
   display: flex;
   justify-content: center;
@@ -18,7 +22,7 @@ ul.control-dots {
  } 
 
 .carousel-container img {
-  width: 200px;
+  width: 100px;
   height: 400px;
   object-fit: cover;
   box-shadow: 0 0.125rem 0.25rem 0 rgb(0 0 0 / 11%);

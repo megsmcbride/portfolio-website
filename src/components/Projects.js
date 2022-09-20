@@ -15,8 +15,16 @@ function Projects() {
     <div className="projects-container">
       <h1>Projects</h1>
       <div className="carousel-container">
-        <Carousel showStatus={false} showArrows={false}
-        showThumbs={false} useKeyboardArrows={true}  emulateTouch={true} swipeable={true}>
+        <Carousel
+          showStatus={false}
+          showArrows={false}
+          showThumbs={false}
+          useKeyboardArrows={true}
+          autoPlay={true}
+          emulateTouch={true}
+          swipeable={true}
+   
+        >
           <div className="item">
             <div className="image-container">
               <img src={portfolio} alt="portfolio" />
