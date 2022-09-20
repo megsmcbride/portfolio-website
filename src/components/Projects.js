@@ -91,7 +91,7 @@ function Projects() {
             </a>
             <p>SPA Twitter clone</p>
           </div>
-          <div className="item" style={{marginLeft: '-20vw'}}>
+          <div className="item">
             <div className="image-container">
               <img src={looseleaf} alt="looseleaf" />
             </div>
