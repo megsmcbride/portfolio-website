@@ -5,7 +5,7 @@
   background-color: #f2ebe9;
   border-radius: 10px;
   box-shadow: 0 0.125rem 0.25rem 0 rgb(0 0 0 / 11%);
-  min-width: 40vw;
+  max-width: 80vw;
 
 }
 
@@ -45,7 +45,7 @@
   color: #f2ebe9;
   align-self: center;
   border: 0;
-  padding: 1vw 2vw;
+  padding: 10px 20px;
   font-family: "Righteous", cursive;
   font-weight: 600;
   font-size: 20px;

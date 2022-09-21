@@ -1,7 +1,7 @@
 .carousel-container {
   display: flex;
   background-color: #f2ebe9;
-  max-width: 50vw;
+  max-width: 60vw;
   max-height: fit-content;
   padding: 30px;
   margin-right: 20px;
@@ -36,7 +36,7 @@ ul.control-dots {
 }
 
 .item {
-  margin-bottom: 0;
+  margin-bottom: 2vw;
 }
 
 a:hover {
@@ -71,7 +71,7 @@ a:hover {
 
 .explore {
   font-family: "Lato", sans-serif;
-  font-size: 2.3vw;
+  font-size: 2rem;
   font-weight: 900;
   text-align: center;
   margin: 0 0 20px 0;

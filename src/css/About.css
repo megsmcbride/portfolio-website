@@ -1,7 +1,7 @@
 .about-container {
   display: flex;
   background-color: #f2ebe9;
-  max-width: 50vw;
+  max-width: 60vw;
   max-height: fit-content;
   padding: 30px;
   margin-right: 20px;
@@ -11,8 +11,8 @@
 
 .photo-me {
   float: left;
-  width: 200px;
-  height: 200px;
+  width: 20vw;
+  height: 20vw;
   margin-bottom: 20px;
   border-radius: 5px;
   box-shadow: 0 0.125rem 0.25rem 0 rgb(0 0 0 / 11%);
@@ -22,8 +22,8 @@
 .details {
   font-family: "Lato", sans-serif;
   font-weight: 300;
-  font-size: 18px;
-  line-height: 35px;
+  font-size: 1.4rem;
+  line-height: 2.7vw;
   margin-top: 20px;
 }
 
@@ -43,12 +43,12 @@ li {
 
 .tech-stack {
   font-family: "Righteous", cursive;
-  font-size: 15px;
+  font-size: 1.2rem;
 
 }
 
 .tech-stack img {
-  height: 35px;
+  height: 2.3em;
 }
 
 
