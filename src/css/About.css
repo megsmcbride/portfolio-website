@@ -53,37 +53,37 @@ li {
 
 
 .left-details {
-  margin-right: 30px;
+  margin-right: 3vw;
 }
 
 
 @media screen and (max-width: 1200px){
   .about-container {
-    width: 50vw;
-    padding: 5vw;
+    max-width: 60vw;
+    padding: 2vw;
   }
 
   .details {
-    font-size: 1.5vw;
+    font-size: 1.8vw;
     line-height: 2.8vw;
 
   }
 
   .tech-stack {
-    font-size: 1.5vw;
+    font-size: 1.7vw;
   }
 
   .tech-stack img {
-    height: 2.7vw;
+    height: 3vw;
   }
 
   .photo-me {
-    width: 17vw;
-    height: 17vw;
+    max-width: 20vw;
+    max-height: 20vw;
 
   }
   .left-details {
-    margin-right: 5vw;
+    margin-right: 3vw;
   }
    }
 
