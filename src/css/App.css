@@ -3,6 +3,7 @@
 body {
   background-color: #eddcd9;
   font-family: 'Righteous', cursive;
+  overflow-x: hidden;
 }
  .content{
   font-family: 'Righteous', cursive;
