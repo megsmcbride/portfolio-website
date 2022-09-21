@@ -1,11 +1,11 @@
 .contact-form {
   display: flex;
   flex-direction: column;
-  padding: 60px 96px;
+  padding: 20px 60px;
   background-color: #f2ebe9;
   border-radius: 10px;
-  width: 470px;
   box-shadow: 0 0.125rem 0.25rem 0 rgb(0 0 0 / 11%);
+  min-width: 40vw;
 
 }
 
@@ -45,10 +45,10 @@
   color: #f2ebe9;
   align-self: center;
   border: 0;
-  padding: 10px 20px;
+  padding: 1vw 2vw;
   font-family: "Righteous", cursive;
   font-weight: 600;
-  font-size: 30px;
+  font-size: 20px;
   border-radius: 10px;
   margin-top: 25px;
 }
@@ -56,7 +56,7 @@
 
 @media screen and (max-width: 1200px){
 .contact-form {
-  padding: 5vw 8vw;
+  padding: 3vw 8vw;
   width: 35vw;
 
 }
@@ -75,7 +75,7 @@
 }
 
 .contact-form button {
-  font-size: 2.4vw;
+  font-size: 2vw;
 }
 
  }

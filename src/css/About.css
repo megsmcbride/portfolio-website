@@ -1,12 +1,12 @@
 .about-container {
   display: flex;
-  flex-direction: row;
-  margin-top: 10px;
-  width: 600px;
-  padding: 70px;
   background-color: #f2ebe9;
-  border-radius: 10px;
+  max-width: 50vw;
+  max-height: fit-content;
+  padding: 30px;
+  margin-right: 20px;
   box-shadow: 0 0.125rem 0.25rem 0 rgb(0 0 0 / 11%);
+  border-radius: 10px;
 }
 
 .photo-me {
