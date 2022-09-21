@@ -68,8 +68,7 @@ function Projects() {
               Jungle
             </a>
             <p>
-              A mini e-commerce application built with Rails 6.1 for purposes of
-              teaching Rails by example
+              A mini e-commerce application built with Rails 6.1
             </p>
           </div>
           <div className="item">
