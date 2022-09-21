@@ -1,8 +1,9 @@
 .about-container {
   display: flex;
+  flex-direction: column;
   background-color: #f2ebe9;
   max-width: 60vw;
-  max-height: fit-content;
+  max-height: 70vh;
   padding: 30px;
   margin-right: 20px;
   box-shadow: 0 0.125rem 0.25rem 0 rgb(0 0 0 / 11%);
@@ -11,9 +12,9 @@
 
 .photo-me {
   float: left;
-  width: 20vw;
-  height: 20vw;
-  margin-bottom: 20px;
+  max-width: 250px;
+  max-width: 250px;
+  margin-right: 1em;
   border-radius: 5px;
   box-shadow: 0 0.125rem 0.25rem 0 rgb(0 0 0 / 11%);
 
@@ -22,9 +23,9 @@
 .details {
   font-family: "Lato", sans-serif;
   font-weight: 300;
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   line-height: 2.7vw;
-  margin-top: 20px;
+  margin-top: 1em;
 }
 
 .reach-me {
@@ -44,7 +45,10 @@ li {
 .tech-stack {
   font-family: "Righteous", cursive;
   font-size: 1.2rem;
+}
 
+.details li {
+  text-decoration: none;
 }
 
 .tech-stack img {
@@ -54,32 +58,33 @@ li {
 
 .left-details {
   margin-right: 3vw;
+  margin-top: 0%;
 }
 
 
 @media screen and (max-width: 1200px){
   .about-container {
     max-width: 60vw;
-    padding: 2vw;
+    padding: 4vw;
   }
 
   .details {
-    font-size: 1.8vw;
-    line-height: 2.8vw;
+    font-size: 2.3vw;
+    line-height: 3.5vw;
 
   }
 
   .tech-stack {
-    font-size: 1.7vw;
+    font-size: 2.3vw;
   }
 
   .tech-stack img {
-    height: 3vw;
+    height: 4.5vw;
   }
 
   .photo-me {
-    max-width: 20vw;
-    max-height: 20vw;
+    max-width: 30vw;
+    max-height: 30vw;
 
   }
   .left-details {

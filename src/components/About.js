@@ -7,7 +7,7 @@ function About() {
         <div className="left-details">
           <img className="photo-me" src={me} alt="megan" />
           <div className="tech-stack">
-            <p> Languages: </p>
+            <p style={{marginTop:0}}> Languages: </p>
             <p>
               <img
                 alt="javascript"
@@ -66,7 +66,7 @@ function About() {
 
           </div>
         </div>
-        <div style={{ margin: "0 0 0 0" }} className="details">
+        <div className="details">
           <li>
             <strong>Full-Stack Web Developer</strong> transitioning from a
             background in <i>Neuroscience.</i>
