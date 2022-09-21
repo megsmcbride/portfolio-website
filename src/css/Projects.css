@@ -1,10 +1,8 @@
-.projects-container {
-  margin-top: 10vh;
-}
-
 .carousel-container {
+  display: flex;
   background-color: #f2ebe9;
-  max-width: fit-content;
+  max-width: 50vw;
+  max-height: fit-content;
   padding: 30px;
   margin-right: 20px;
   box-shadow: 0 0.125rem 0.25rem 0 rgb(0 0 0 / 11%);
@@ -14,15 +12,13 @@
 ul.control-dots {
   display: flex;
   justify-content: center;
-  margin-top: 30px;
 }
 
 .carousel-container img {
-  width: 100px;
-  height: 400px;
+  height: 45vh;
   object-fit: cover;
   box-shadow: 0 0.125rem 0.25rem 0 rgb(0 0 0 / 11%);
-  margin-bottom: 30px;
+  margin-bottom: 2vh;
 }
 
 .carousel-container a {
@@ -36,10 +32,11 @@ ul.control-dots {
 .carousel-container p {
   font-family: "Lato", sans-serif;
   font-weight: 900;
+  font-size: 20px;
 }
 
 .item {
-  margin-bottom: 100px;
+  margin-bottom: 0;
 }
 
 a:hover {
@@ -52,22 +49,29 @@ a:hover {
 
 @media screen and (max-width: 1500px) {
   .carousel-container {
-    width: 40vw;
+    max-width: 60vw;
     padding: 2vw;
   }
 
   .carousel-container img {
-    width: 35vw;
-    height: 30vw;
+    width: fit-content;
+    height: 40vh;
   }
   .carousel-container a {
-    font-size: 1.8vw;
+    font-size: 2.3vw;
   }
   .carousel-container p {
-    font-size: 1.2vw;
+    font-size: 1.4vw;
   }
 
   .item {
-    margin-bottom: 10vw;
+    margin-bottom: 2vw;
   }
+}
+
+@media screen and (max-width: 900px){
+  .item {
+    margin-bottom: 6vw;
+  }
+  
 }

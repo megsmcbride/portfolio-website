@@ -89,7 +89,7 @@ function App() {
                 bgColor="#de5499"
                 fgColor="#f2ebe9"
                 style={{ height: "2.4vw", width: "2.4vw",  maxHeight: "40px",
-                maxWidth: "40px",}}
+                maxWidth: "40px" }}
               />
               <SocialIcon
                 url="https://www.linkedin.com/in/megsmcbride"

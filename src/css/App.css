@@ -96,7 +96,7 @@ body {
 section {
   display: grid;
   place-items: center;
-  min-height: 100vh;
+  height: 100vh;
   font-size: 40px;
   font-weight: 100;
   margin-top: 0;
@@ -186,19 +186,13 @@ a {
 }
 
 
-
-
-#projects {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-
 h1 {
   text-align: center;
-  font-size: 83px;
-  margin-bottom: 50px;
+  font-size: 5rem;
+  margin-bottom: 20px;
   margin-top: 0px;
+}
+
+.social-svg:hover {
+  color:#e99f4c;
 }
