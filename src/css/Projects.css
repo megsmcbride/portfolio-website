@@ -1,7 +1,7 @@
 .carousel-container {
   display: flex;
   background-color: #f2ebe9;
-  max-width: 60vw;
+  max-width: 50rem;
   max-height: fit-content;
   padding: 30px;
   margin-right: 20px;
@@ -19,7 +19,7 @@ ul.control-dots {
 }
 
 .carousel-container img {
-  height: 45vh;
+  max-height: 50vh;
   object-fit: cover;
   box-shadow: 0 0.125rem 0.25rem 0 rgb(0 0 0 / 11%);
   margin-bottom: 2vh;
@@ -53,19 +53,19 @@ a:hover {
 
 @media screen and (max-width: 1500px) {
   .carousel-container {
-    max-width: 60vw;
-    padding: 4vw;
+    max-width: 54vw;
+    padding: 1rem;
   }
 
   .carousel-container img {
     width: fit-content;
-    height: 35vh;
-  }
+    max-height: 35vh;
+  } 
   .carousel-container a {
-    font-size: 2.3vw;
+    font-size: 1.6vw;
   }
   .carousel-container p {
-    font-size: 1.2vw;
+    font-size: 1.5vw;
   }
 
   .item {
