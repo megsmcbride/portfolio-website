@@ -3,12 +3,12 @@ import React from "react";
 // import "react-multi-carousel/lib/styles.css";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
-import tunesquad from "../images/tunesquad.png";
+import tunesquad from "../images/tunesquad.gif";
 import jungle from "../images/jungle.png";
-import tweeter from "../images/tweeter.png";
-import scheduler from "../images/scheduler.png";
-import looseleaf from "../images/looseleaf.png";
-import portfolio from "../images/portfolio.png";
+import tweeter from "../images/tweeter.gif";
+import scheduler from "../images/scheduler.gif";
+import looseleaf from "../images/looseleaf.gif";
+import portfolio from "../images/portfolio.gif";
 
 function Projects() {
   return (
