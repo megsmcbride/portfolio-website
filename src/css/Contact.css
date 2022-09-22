@@ -6,7 +6,10 @@
   border-radius: 10px;
   box-shadow: 0 0.125rem 0.25rem 0 rgb(0 0 0 / 11%);
   max-width: 80vw;
+}
 
+.contact-form:hover {
+  box-shadow: 0.125rem  0.125rem 0.25rem 0.125rem  rgb(0 0 0 / 20%);
 }
 
 .contact-form input {

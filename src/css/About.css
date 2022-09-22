@@ -10,6 +10,11 @@
   border-radius: 10px;
 }
 
+.about-container:hover {
+  box-shadow: 0.25rem 0.25rem 0.25rem 0.25rem  rgb(0 0 0 / 20%);
+}
+
+
 .photo-me {
   float: left;
   max-width: 250px;
