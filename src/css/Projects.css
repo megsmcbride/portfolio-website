@@ -65,7 +65,7 @@ a:hover {
   }
 
   .item {
-    margin-bottom: 2vw;
+    margin-bottom: 5vw;
   }
 }
 
@@ -81,7 +81,7 @@ a:hover {
 
 @media screen and (max-width: 900px){
   .item {
-    margin-bottom: 6vw;
+    margin-bottom: 7vw;
   }
   
   .explore {

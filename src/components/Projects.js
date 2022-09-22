@@ -24,6 +24,7 @@ function Projects() {
           autoPlay={true}
           emulateTouch={true}
           swipeable={true}
+          // infiniteLoop={true}
    
         >
           <div className="item">
