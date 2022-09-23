@@ -1,6 +1,5 @@
 import React from "react";
-// import Carousel from "react-multi-carousel";
-// import "react-multi-carousel/lib/styles.css";
+
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
 import tunesquad from "../images/tunesquad.gif";
@@ -21,10 +20,10 @@ function Projects() {
           showArrows={false}
           showThumbs={false}
           useKeyboardArrows={true}
-          autoPlay={true}
+
           emulateTouch={true}
           swipeable={true}
-          // infiniteLoop={true}
+        
    
         >
           <div className="item">
