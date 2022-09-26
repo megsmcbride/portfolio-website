@@ -13,12 +13,11 @@ import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import { SocialIcon } from "react-social-icons";
 
-
 window.$ = $;
 
 function App() {
-  const [linkedInIconColor, setLinkedInIconColor] = useState("#de5499")
-  const [githubIconColor, setGithubIconColor] = useState("#de5499")
+  const [linkedInIconColor, setLinkedInIconColor] = useState("#de5499");
+  const [githubIconColor, setGithubIconColor] = useState("#de5499");
 
   window.history.pushState({}, null, "/");
   $(document).ready(function () {
@@ -58,9 +57,6 @@ function App() {
     );
   });
 
-  function mouseOver() {
-    document.getElementById("")
-  }
   return (
     <div>
       <div className="App">
@@ -91,18 +87,22 @@ function App() {
 
             <div className="website-links">
               <SocialIcon
-               onMouseEnter={() => setGithubIconColor("#e99f4c")}
-               onMouseLeave={() => setGithubIconColor("#de5499")}
+                onMouseEnter={() => setGithubIconColor("#e99f4c")}
+                onMouseLeave={() => setGithubIconColor("#de5499")}
                 url="https://github.com/megsmcbride"
                 target="_blank"
                 bgColor={githubIconColor}
                 fgColor="#f2ebe9"
-                style={{ height: "2.4vw", width: "2.4vw",  maxHeight: "40px",
-                maxWidth: "40px" }}
+                style={{
+                  height: "2.4vw",
+                  width: "2.4vw",
+                  maxHeight: "40px",
+                  maxWidth: "40px",
+                }}
               />
               <SocialIcon
-              onMouseEnter={() => setLinkedInIconColor("#e99f4c")}
-              onMouseLeave={() => setLinkedInIconColor("#de5499")}
+                onMouseEnter={() => setLinkedInIconColor("#e99f4c")}
+                onMouseLeave={() => setLinkedInIconColor("#de5499")}
                 url="https://www.linkedin.com/in/megsmcbride"
                 target="_blank"
                 bgColor={linkedInIconColor}
@@ -112,8 +112,7 @@ function App() {
                   maxHeight: "40px",
                   maxWidth: "40px",
                   width: "2.4vw",
-                  marginLeft: '1.5vw',
-              
+                  marginLeft: "1.5vw",
                 }}
               />
             </div>
