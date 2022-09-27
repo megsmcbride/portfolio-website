@@ -3,7 +3,7 @@
   flex-direction: column;
   background-color: #f2ebe9;
   max-width: 60vw;
-  max-height: 70vh;
+  min-height: 20vh;
   padding: 30px;
   margin-right: 20px;
   box-shadow: 0 0.125rem 0.25rem 0 rgb(0 0 0 / 11%);
@@ -28,7 +28,7 @@
 .details {
   font-family: "Lato", sans-serif;
   font-weight: 300;
-  font-size: 1.3rem;
+  font-size: 0.5em;
   line-height: 2.7vw;
   margin-top: 1em;
 }
