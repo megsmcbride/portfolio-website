@@ -42,14 +42,14 @@ function App() {
       1000
     );
 
-    $(".rectangle4").stop(true).delay(1500).animate(
+    $(".rectangle4").stop(true).delay(1200).animate(
       {
         left: "88%",
       },
       1600
     );
 
-    $(".rectangle5").stop(true).delay(2000).animate(
+    $(".rectangle5").stop(true).delay(1500).animate(
       {
         left: "85%",
       },
