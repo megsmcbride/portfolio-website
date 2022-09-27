@@ -56,6 +56,13 @@
   margin-top: 25px;
 }
 
+.contact-form p {
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  color: #de5499;
+  font-weight: 600;
+}
+
 
 @media screen and (max-width: 1200px){
 .contact-form {

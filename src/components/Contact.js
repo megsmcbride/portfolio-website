@@ -1,7 +1,8 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import emailjs from '@emailjs/browser';
 
 function Contact() {
+  const [ emailSent, setEmailSent ] = useState(false)
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -15,15 +16,15 @@ function Contact() {
       });
     e.target.reset()
   };
+
+
   return (
     <>
     <div>
       <h1>Contact Me</h1>
       <div >
       <form className="contact-form" ref={form} onSubmit={(e) => sendEmail(e)}>
-          <div>
-            
-          </div>
+        { emailSent ? (<p> Message sent </p>) : (<>
           <label>Name</label>
           <input type="text" name="name" placeholder="your name"/>
 
@@ -32,7 +33,10 @@ function Contact() {
 
           <label>Message</label>
           <textarea name="message" placeholder="your message"/>
-          <button  type="submit" value="Send" > Send </button>
+          <button  type="submit" value="Send" onClick={() => setEmailSent('true')}> Send </button>
+        </>
+          )
+        }
         </form>
       </div>
     </div>
