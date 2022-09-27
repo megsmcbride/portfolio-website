@@ -11,6 +11,7 @@ function Contact() {
     emailjs.sendForm(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, form.current, process.env.REACT_APP_PUBLIC_KEY)
       .then((result) => {
         console.log(result.text);
+        setEmailSent('true')
       }, (error) => {
         console.log(error.text);
       });
@@ -33,7 +34,7 @@ function Contact() {
 
           <label>Message</label>
           <textarea name="message" placeholder="your message"/>
-          <button  type="submit" value="Send" onClick={() => setEmailSent('true')}> Send </button>
+          <button  type="submit" value="Send" > Send </button>
         </>
           )
         }
