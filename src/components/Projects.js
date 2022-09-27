@@ -51,8 +51,7 @@ function Projects() {
               TuneSquad
             </a>
             <p>
-              Collaberative Spotify creation React SPA where users can generate
-              custome playlists based on a voting system
+            Voting-based playlist creation app built with Spotify's REST API
             </p>
           </div>
           <div className="item">
