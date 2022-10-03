@@ -1,3 +1,10 @@
+.contact-section {
+  display: flex;
+}
+
+.left-container {
+  margin-right: 1em;
+}
 .contact-form {
   display: flex;
   flex-direction: column;
