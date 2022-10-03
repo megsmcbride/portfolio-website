@@ -7,12 +7,17 @@ function About() {
         <div className="left-details">
           <img className="photo-me" src={me} alt="megan" />
           <div className="tech-stack">
-            <p style={{marginTop:0}}> Languages: </p>
+            <p style={{ marginTop: 0 }}> Languages: </p>
             <p>
               <img
                 alt="javascript"
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg"
               />
+              <img
+                alt="typescript"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg"
+              />
+
               <img
                 alt="html5"
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg"
@@ -63,7 +68,6 @@ function About() {
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg"
               />
             </p>
-
           </div>
         </div>
         <div className="details">
@@ -72,8 +76,9 @@ function About() {
             background in <i>Neuroscience.</i>
           </li>
           <li>
-            Passionate about creating visually intriguing <i>web designs </i> and
-            using my <i>problem-solving skills </i>to come to unique solutions
+            Passionate about creating visually intriguing <i>web designs </i>{" "}
+            and using my <i>problem-solving skills </i>to come to unique
+            solutions
           </li>
           <li>
             <strong>Avid Reader </strong>- Some of my favourites are
@@ -81,9 +86,10 @@ function About() {
             Ness and In the Dream House by Carmen Maria Machado.
           </li>
           <li>
-            Currently learning <strong>TypeScript</strong> and  <strong>Angular</strong> 
+            Currently learning <strong>TypeScript</strong> and{" "}
+            <strong>Angular</strong>
           </li>
-        
+
           <br />
 
           <i className="reach-me">
