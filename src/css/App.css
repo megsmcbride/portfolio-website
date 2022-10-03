@@ -97,7 +97,7 @@ body {
 section {
   display: grid;
   place-items: center;
-  height: 100vh;
+  min-height: 100vh;
   font-size: 40px;
   font-weight: 100;
   margin-top: 0;
