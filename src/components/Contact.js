@@ -21,8 +21,9 @@ function Contact() {
 
   return (
     <>
-    <div>
-      <h1>Contact Me</h1>
+    <div className="contact-container">
+      <h3>Let's Chat!</h3>
+      <p className="contact-intro">Feel free to reach out with me via the form below or on <a> LinkedIn</a></p>
       <div >
       <form className="contact-form" ref={form} onSubmit={(e) => sendEmail(e)}>
         { emailSent ? (<p> Message sent </p>) : (<>
