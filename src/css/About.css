@@ -1,17 +1,6 @@
 .about-container {
   display: flex;
-  flex-direction: column;
-  background-color: #f2ebe9;
-  max-width: 60vw;
-  min-height: 20vh;
-  padding: 30px;
-  margin-right: 20px;
-  box-shadow: 0 0.125rem 0.25rem 0 rgb(0 0 0 / 11%);
-  border-radius: 10px;
-}
-
-.about-container:hover {
-  box-shadow: 0.125rem  0.125rem 0.25rem 0.125rem  rgb(0 0 0 / 20%);
+  flex-direction: row;
 }
 
 
@@ -27,10 +16,9 @@
 
 .details {
   font-family: "Lato", sans-serif;
-  font-weight: 300;
-  font-size: 0.5em;
+  font-weight: 600;
   line-height: 2.7vw;
-  margin-top: 1em;
+  margin-top: 0px;
 }
 
 .reach-me {
@@ -41,6 +29,7 @@
   display: flex;
   text-align: center;
   font-weight: 400;
+  font-size: 0.4em;
 }
 
 li {
@@ -50,6 +39,8 @@ li {
 .tech-stack {
   font-family: "Righteous", cursive;
   font-size: 1.2rem;
+  margin-top: 1rem;
+
 }
 
 .details li {
@@ -73,8 +64,20 @@ li {
 .left-details {
   margin-right: 3vw;
   margin-top: 0%;
+  display: flex;
+  flex-direction: column;
+  
 }
 
+.details-accents {
+color: #de5499;
+
+}
+
+/* .about-intro {
+  font-family: 'Righteous', cursive;
+font-size: 0.6em;
+} */
 
 @media screen and (max-width: 1200px){
   .about-container {
