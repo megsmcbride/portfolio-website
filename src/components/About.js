@@ -2,7 +2,6 @@ import me from "../images/me.jpeg";
 function About() {
   return (
     <div>
-      <h1> About </h1>
       <div className="about-container">
         <div className="left-details">
           <img className="photo-me" src={me} alt="megan" />
@@ -71,33 +70,31 @@ function About() {
           </div>
         </div>
         <div className="details">
-          <li>
-            <strong>Full-Stack Web Developer</strong> transitioning from a
+          <p>Hi, I'm Megan!</p>
+          <p>
+            <span className="details-accents">Full-Stack Web Developer</span> transitioning from a
             background in <i>Neuroscience.</i>
-          </li>
-          <li>
+          </p>
+          <p>
             Passionate about creating visually intriguing <i>web designs </i>{" "}
             and using my <i>problem-solving skills </i>to come to unique
             solutions
-          </li>
-          <li>
-            <strong>Avid Reader </strong>- Some of my favourites are
+          </p>
+          <p>
+            <span className="details-accents">Avid Reader </span >- Some of my favourites are
             Slaughterhouse-five by Kurt Vonnegut, A Monster Calls by Patrick
             Ness and In the Dream House by Carmen Maria Machado.
-          </li>
-          <li>
-            Currently learning <strong>TypeScript</strong> and{" "}
-            <strong>Angular</strong>
-          </li>
+          </p>
+          <p>
+            Currently learning <span className="details-accents">TypeScript</span > and{" "}
+            <span className="details-accents">Angular</span >
+          </p>
 
           <br />
 
-          <i className="reach-me">
-            I'd love to chat, feel free to reach out to me by Linkedin, email or
-            the contact form below!
-          </i>
         </div>
       </div>
+
     </div>
   );
 }
