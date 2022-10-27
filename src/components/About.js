@@ -70,7 +70,8 @@ function About() {
           </div>
         </div>
         <div className="details">
-          <p>Hi, I'm Megan!</p>
+          <strong className="about-intro">Hello, Welcome</strong>
+          <p>My name is Megan McBrie. </p>
           <p>
             <span className="details-accents">Full-Stack Web Developer</span> transitioning from a
             background in <i>Neuroscience.</i>
@@ -78,7 +79,7 @@ function About() {
           <p>
             Passionate about creating visually intriguing <i>web designs </i>{" "}
             and using my <i>problem-solving skills </i>to come to unique
-            solutions
+            solutions.
           </p>
           <p>
             <span className="details-accents">Avid Reader </span >- Some of my favourites are
@@ -87,7 +88,7 @@ function About() {
           </p>
           <p>
             Currently learning <span className="details-accents">TypeScript</span > and{" "}
-            <span className="details-accents">Angular</span >
+            <span className="details-accents">Angular.</span >
           </p>
 
           <br />

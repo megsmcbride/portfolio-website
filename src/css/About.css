@@ -1,6 +1,8 @@
 .about-container {
   display: flex;
   flex-direction: row;
+  max-width: 60vw;
+  min-height: 20vh;
 }
 
 
@@ -16,9 +18,10 @@
 
 .details {
   font-family: "Lato", sans-serif;
-  font-weight: 600;
-  line-height: 2.7vw;
-  margin-top: 0px;
+  font-weight: 500;
+  line-height: 2.8vw;
+  font-size: 0.5em;
+
 }
 
 .reach-me {
@@ -71,13 +74,18 @@ li {
 
 .details-accents {
 color: #de5499;
+letter-spacing: 1.5px;
+font-style: italic;
 
 }
 
-/* .about-intro {
-  font-family: 'Righteous', cursive;
-font-size: 0.6em;
-} */
+.about-intro {
+  margin-top: 0px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  
+  
+}
 
 @media screen and (max-width: 1200px){
   .about-container {
@@ -86,7 +94,7 @@ font-size: 0.6em;
   }
 
   .details {
-    font-size: 0.5em;
+    font-size: 0.48em;
     line-height: 2em;
 
   }
@@ -107,5 +115,13 @@ font-size: 0.6em;
   .left-details {
     margin-right: 3vw;
   }
+   }
+
+   @media screen and (min-width: 2200px) {
+     .details {
+
+       line-height: 52px;
+     }
+     
    }
 
