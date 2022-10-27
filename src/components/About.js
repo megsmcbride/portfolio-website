@@ -71,7 +71,7 @@ function About() {
         </div>
         <div className="details">
           <strong className="about-intro">Hello, Welcome</strong>
-          <p>My name is Megan McBrie. </p>
+          <p>My name is Megan McBride. </p>
           <p>
             <span className="details-accents">Full-Stack Web Developer</span> transitioning from a
             background in <i>Neuroscience.</i>
