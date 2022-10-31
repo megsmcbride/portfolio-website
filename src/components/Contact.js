@@ -23,7 +23,7 @@ function Contact() {
     <>
     <div className="contact-container">
       <h4 className="lets-chat">Let's Chat!</h4>
-      <p className="contact-intro">Feel free to reach out with me via the form below or on <a className="linkedin-link" href="https://www.linkedin.com/in/megsmcbride"> LinkedIn</a></p>
+      <p className="contact-intro">Feel free to reach out to me via the form below or on <a className="linkedin-link" href="https://www.linkedin.com/in/megsmcbride"> LinkedIn</a></p>
       <div >
       <form className="contact-form" ref={form} onSubmit={(e) => sendEmail(e)}>
         { emailSent ? (<p> Message sent </p>) : (<>
