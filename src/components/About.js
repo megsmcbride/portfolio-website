@@ -2,8 +2,38 @@ import me from "../images/me.jpeg";
 function About() {
   return (
     <div>
+  
       <div className="about-container">
-        <div className="left-details">
+      <h1 className="about-header">About</h1>
+      <div className="about-section">
+      <div className="details">
+          <strong className="about-intro">Hello, Welcome</strong>
+
+          <p>My name is Megan McBride. </p>
+          <p>
+            I'm a  <span className="details-accents"> Full-Stack Web Developer</span> transitioning from a
+            background in <i>Neuroscience. </i>
+
+            I'm passionate about creating visually intriguing <i>web designs </i>
+            and using my <i>problem-solving skills </i>to come to unique
+            solutions. 
+            <br/>
+            <br/>
+            I'm also an
+            <span className="details-accents"> Avid Reader. </span >
+            Some of my favourites are
+            Slaughterhouse-five by Kurt Vonnegut, A Monster Calls by Patrick
+            Ness and In the Dream House by Carmen Maria Machado.
+          </p>
+          <p>
+            Currently learning <span className="details-accents">TypeScript</span > and
+            <span className="details-accents"> Angular.</span >
+          </p>
+
+          <br />
+
+        </div>
+        <div className="right-details">
           <img className="photo-me" src={me} alt="megan" />
           <div className="tech-stack">
             <p style={{ marginTop: 0 }}> Languages: </p>
@@ -69,34 +99,11 @@ function About() {
             </p>
           </div>
         </div>
-        <div className="details">
-          <strong className="about-intro">Hello, Welcome</strong>
 
-          <p>My name is Megan McBride. </p>
-          <p>
-            I'm a  <span className="details-accents"> Full-Stack Web Developer</span> transitioning from a
-            background in <i>Neuroscience. </i>
-
-            I'm passionate about creating visually intriguing <i>web designs </i>
-            and using my <i>problem-solving skills </i>to come to unique
-            solutions. 
-            <br/>
-            <br/>
-            I'm also an
-            <span className="details-accents"> Avid Reader. </span >
-            Some of my favourites are
-            Slaughterhouse-five by Kurt Vonnegut, A Monster Calls by Patrick
-            Ness and In the Dream House by Carmen Maria Machado.
-          </p>
-          <p>
-            Currently learning <span className="details-accents">TypeScript</span > and
-            <span className="details-accents"> Angular.</span >
-          </p>
-
-          <br />
-
-        </div>
       </div>
+      </div>
+  
+  
 
     </div>
   );

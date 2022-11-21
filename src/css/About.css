@@ -1,10 +1,23 @@
 .about-container {
   display: flex;
-  flex-direction: row;
-  max-width: 60vw;
+  flex-direction: column;
+  max-width: 50vw;
   min-height: 20vh;
+  border-bottom: 0.2rem solid #264143;
 }
 
+.about-section {
+  display: flex;
+  font-size: 30px;
+  padding: 30px 0px;
+}
+
+.about-header {
+  display: flex;
+  margin: 2px;
+  border-bottom: 0.2rem solid #264143;
+
+}
 
 .photo-me {
   float: left;
@@ -19,11 +32,12 @@
 .details {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   font-family: "Lato", sans-serif;
   font-weight: 500;
   line-height: 2vw;
-  font-size: 1.2rem;  
+  font-size: 1.2rem;
+  margin-right: 1rem; 
+  margin-top: 30px; 
 
 }
 
@@ -32,7 +46,6 @@
   justify-content: center;
   font-family: 'Righteous', cursive;
   color: #de5499;
-  display: flex;
   text-align: center;
   font-weight: 400;
   font-size: 0.4em;
@@ -63,14 +76,11 @@ li {
 }
 
 
-.left-details {
-  margin-right: 3vw;
-  margin-top: 0%;
+.right-details {
   display: flex;
   flex-direction: column;
-  background-color: #f2ebe9;
-  padding: 30px;
-  box-shadow: 0 0.125rem 0.25rem 0 rgb(0 0 0 / 11%);
+  padding-top:  30px;
+  padding-left: 30px;
   border-radius: 2px;
   
 }
@@ -100,6 +110,7 @@ font-style: italic;
   .details {
     font-size: 0.48em;
     line-height: 2em;
+    padding: 1em;
 
   }
 
@@ -116,8 +127,12 @@ font-style: italic;
     max-height: 7em;
 
   }
-  .left-details {
-    padding: 1em;
+  .right-details {
+    padding-top: 1em;
+    padding-left: 1em;
+  }
+  .about-header {
+    font-size: 4vw;
   }
    }
 
