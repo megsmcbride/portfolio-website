@@ -69,13 +69,13 @@ function App() {
                 </Link>
               </li>
               <li>
-                <Link smooth spy to="projects">
-                  PROJECTS
+                <Link smooth spy to="about">
+                  ABOUT
                 </Link>
               </li>
               <li>
-                <Link smooth spy to="about">
-                  ABOUT
+                <Link smooth spy to="projects">
+                  PROJECTS
                 </Link>
               </li>
               <li>
@@ -122,11 +122,11 @@ function App() {
           <section id="home">
             <Intro />
           </section>
-          <section id="projects">
-            <Projects />
-          </section>
           <section id="about">
             <About />
+          </section>
+          <section id="projects">
+            <Projects />
           </section>
           <section id="contact">
             <Contact />
