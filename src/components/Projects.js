@@ -14,18 +14,7 @@ function Projects() {
     <div className="projects-container">
       <h1>Projects</h1>
       <p className="explore">Scroll to explore my work →</p>
-      <div className="carousel-container">
-        <Carousel
-          showStatus={false}
-          showArrows={false}
-          showThumbs={false}
-          useKeyboardArrows={true}
-
-          emulateTouch={true}
-          swipeable={true}
-        
-   
-        >
+     
           <div className="item">
             <div className="image-container">
               <img src={portfolio} alt="portfolio" />
@@ -115,8 +104,6 @@ function Projects() {
               resources for later viewing
             </p>
           </div>
-        </Carousel>
-      </div>
     </div>
   );
 }
