@@ -4,7 +4,6 @@ import "./css/Intro.css";
 import "./css/Contact.css";
 import "./css/About.css";
 import "./css/Projects.css";
-
 import $ from "jquery";
 import { Link } from "react-scroll";
 import Intro from "./components/Intro";
@@ -25,35 +24,35 @@ function App() {
       {
         left: "97%",
       },
-      1000
+      600
     );
 
-    $(".rectangle2").stop(true).delay(500).animate(
+    $(".rectangle2").stop(true).delay(200).animate(
       {
         left: "94%",
       },
-      1000
+      600
     );
 
-    $(".rectangle3").stop(true).delay(1000).animate(
+    $(".rectangle3").stop(true).delay(400).animate(
       {
         left: "91%",
       },
-      1000
+      800
     );
 
-    $(".rectangle4").stop(true).delay(1200).animate(
+    $(".rectangle4").stop(true).delay(600).animate(
       {
         left: "88%",
       },
-      1600
+      1200
     );
 
-    $(".rectangle5").stop(true).delay(1500).animate(
+    $(".rectangle5").stop(true).delay(800).animate(
       {
         left: "85%",
       },
-      2000
+      1400
     );
   });
 
