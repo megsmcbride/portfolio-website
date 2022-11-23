@@ -11,7 +11,7 @@
     color: #4f777b;
   }
   50% {
-    color: #e99f4c
+    color: #e99f4c;
   }
   75% {
     color: #ff8beb;
@@ -26,18 +26,19 @@
 
 .intro {
   margin-top: 0px;
+  font-size: 40px;
 }
 
-@media screen and (max-width: 1200px){
- .greeting {
-   font-size: 8vw;
- } 
+@media screen and (max-width: 1200px) {
+  .greeting {
+    font-size: 8vw;
+  }
 
- section {
-   font-size: 3.4vw;
- }
- 
- h1 {
-   font-size: 6vw;
- }
+  section {
+    font-size: 3.4vw;
+  }
+
+  h1 {
+    font-size: 6vw;
+  }
 }

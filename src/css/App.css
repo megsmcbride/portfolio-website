@@ -98,7 +98,6 @@ section {
   display: grid;
   place-items: center;
   min-height: 100vh;
-  font-size: 40px;
   font-weight: 100;
   margin-top: 0;
  } 
@@ -197,3 +196,28 @@ h1 {
 .social-svg:hover {
   color:#e99f4c;
 }
+
+@media screen and (min-width: 1500px){ 
+
+
+  .rectangle1 {
+    height: 700vh;
+  }
+  
+  .rectangle2 {
+    height: 700vh;
+  }
+  .rectangle3 {
+    height: 700vh;
+  }
+  .rectangle4 {
+    height: 700vh;
+  }
+  .rectangle5 {
+
+    height: 700vh;
+  }
+  
+  
+ 
+ }
