@@ -3,6 +3,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 90rem;
+
 }
 
 .item {
@@ -60,28 +62,27 @@
   font-size: 2.5rem;
 }
 
-@media screen and (max-width: 1500px){ 
- .item {
-   width: 30rem;
- }
-
- .image-container img {
-    max-width: 25rem;
- }
-
- .stack-item {
-   font-size: 0.5rem;
- }
+@media screen and (max-width: 2100px){ 
+  .projects-container {
+    width: 60rem;
+  }
 
 }
 
-@media screen and (max-width: 900px){ 
-  .item {
-    width: 15rem;
+@media screen and (max-width: 1500px){ 
+  .projects-container {
+    width: 30rem;
   }
  
-  .image-container img {
-     max-width: 15rem;
-  }
+ }
+
+ @media screen and (max-width: 900px){ 
+.item {
+  width: 15rem;
+}
+
+.image-container img {
+  width: 15rem;
+}
  
  }
