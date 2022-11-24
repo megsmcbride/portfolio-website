@@ -10,15 +10,14 @@ import Intro from "./components/Intro";
 import About from "./components/About";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
-import { SocialIcon } from "react-social-icons";
+
 import logo from "./images/logo.png";
 
 
 window.$ = $;
 
 function App() {
-  const [linkedInIconColor, setLinkedInIconColor] = useState("#de5499");
-  const [githubIconColor, setGithubIconColor] = useState("#de5499");
+
 
   window.history.pushState({}, null, "/");
   $(document).ready(function () {
@@ -62,11 +61,12 @@ function App() {
     <div>
       <div className="App">
         <header className="nav">
-          <nav className="nav__container__actions">
-            <ul>
-              <li>
               <img src={logo} alt="logo" />
-              </li>
+          <nav className="nav__container__actions">
+            <div className="actions-links">
+            <ul>
+         
+           
               <li>
                 <Link smooth spy to="home">
                   HOME
@@ -88,37 +88,6 @@ function App() {
                 </Link>
               </li>
             </ul>
-
-            <div className="website-links">
-              <SocialIcon
-                onMouseEnter={() => setGithubIconColor("#e99f4c")}
-                onMouseLeave={() => setGithubIconColor("#de5499")}
-                url="https://github.com/megsmcbride"
-                target="_blank"
-                bgColor={githubIconColor}
-                fgColor="#f2ebe9"
-                style={{
-                  height: "2.4vw",
-                  width: "2.4vw",
-                  maxHeight: "40px",
-                  maxWidth: "40px",
-                }}
-              />
-              <SocialIcon
-                onMouseEnter={() => setLinkedInIconColor("#e99f4c")}
-                onMouseLeave={() => setLinkedInIconColor("#de5499")}
-                url="https://www.linkedin.com/in/megsmcbride"
-                target="_blank"
-                bgColor={linkedInIconColor}
-                fgColor="#f2ebe9"
-                style={{
-                  height: "2.4vw",
-                  maxHeight: "40px",
-                  maxWidth: "40px",
-                  width: "2.4vw",
-                  marginLeft: "1.5vw",
-                }}
-              />
             </div>
           </nav>
         </header>

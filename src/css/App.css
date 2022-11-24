@@ -132,7 +132,13 @@ section {
   position: relative;
 }
 
+.nav img {
+  width: 160px;
+}
+
 .nav__container__actions {
+  display: flex;
+  justify-content: end;
   display: inline-flex;
   flex-flow: row nowrap;
   padding-left: 50px;
@@ -149,6 +155,7 @@ ul {
   list-style: none;
   padding: 0;
 }
+
 
 li {
   cursor: pointer;
@@ -179,13 +186,6 @@ a {
   font-size: 1.5em;
 }
 
-@media screen and (max-width: 768px) { 
-  a {
-    font-size: 2.7vw;
-  }
-}
-
-
 h1 {
   text-align: center;
   font-size: 4vw;
@@ -196,6 +196,19 @@ h1 {
 .social-svg:hover {
   color:#e99f4c;
 }
+
+
+@media screen and (max-width: 768px) { 
+  a {
+    font-size: 2.7vw;
+  }
+ .nav img {
+  width: 20vw;
+ }
+
+}
+
+
 
 @media screen and (min-width: 1500px){ 
 
