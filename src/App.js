@@ -11,6 +11,8 @@ import About from "./components/About";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import { SocialIcon } from "react-social-icons";
+import logo from "./images/logo.png";
+
 
 window.$ = $;
 
@@ -34,11 +36,11 @@ function App() {
       600
     );
 
-    $(".rectangle3").stop(true).delay(400).animate(
+    $(".rectangle3").stop(true).delay(500).animate(
       {
         left: "91%",
       },
-      800
+      600
     );
 
     $(".rectangle4").stop(true).delay(600).animate(
@@ -62,6 +64,9 @@ function App() {
         <header className="nav">
           <nav className="nav__container__actions">
             <ul>
+              <li>
+              <img src={logo} alt="logo" />
+              </li>
               <li>
                 <Link smooth spy to="home">
                   HOME
