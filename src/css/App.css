@@ -210,25 +210,25 @@ h1 {
 
 
 
-@media screen and (min-width: 1500px){ 
+@media screen and (max-width: 1500px){ 
 
 
   .rectangle1 {
-    height: 700vh;
+    height: 1000vh;
   }
   
   .rectangle2 {
-    height: 700vh;
+    height: 1000vh;
   }
   .rectangle3 {
-    height: 700vh;
+    height: 1000vh;
   }
   .rectangle4 {
-    height: 700vh;
+    height: 1000vh;
   }
   .rectangle5 {
 
-    height: 700vh;
+    height: 1000vh;
   }
   
   
