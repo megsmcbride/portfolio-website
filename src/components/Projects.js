@@ -1,7 +1,5 @@
 import React from "react";
 import { SimpleGrid, Box } from "@chakra-ui/react";
-import { HiOutlineArrowNarrowRight } from "react-icons/hi";
-
 import tunesquad from "../images/tunesquad.gif";
 import jungle from "../images/jungle.png";
 import tweeter from "../images/tweeter.gif";
@@ -14,7 +12,7 @@ function Projects() {
     <div className="projects-container">
       <h1>Projects</h1>
 
-      <SimpleGrid minChildWidth='400px' spacing="20px">
+      <SimpleGrid minChildWidth="400px" spacing="20px">
         <Box className="item">
           <div>
             <div className="image-container">
@@ -26,17 +24,18 @@ function Projects() {
               <li className="stack-item">HTML</li>
               <li className="stack-item">CSS</li>
               <li className="stack-item">React</li>
-            
             </ul>
-            <p>Personal website to showcase my projects</p>
+            <p>
+              A portfolio website built using React to showcase my past
+              projects. Illustrating my front-end development skills, this
+              application is entirely client-sided.
+            </p>
             <a
               href="https://github.com/megsmcbride/portfolio-website"
               target="_blank"
               rel="noreferrer"
             >
-              github
-              <HiOutlineArrowNarrowRight />
-            </a>
+              view github             </a>
           </div>
         </Box>
         <Box className="item">
@@ -47,26 +46,26 @@ function Projects() {
             <h1>TuneSquad</h1>
             <ul className="project-tech-stack">
               <li className="stack-item">Javascript</li>
-              <li className="stack-item">MUI</li>
               <li className="stack-item">Chakra</li>
               <li className="stack-item">Express</li>
               <li className="stack-item">React</li>
-              <li className="stack-item">RESTful APIs</li>
+              <li className="stack-item">REST APIs</li>
             </ul>
             <p>
-              Voting-based playlist creation app built with Spotify's REST API
-              Voting-based playlist creation app built with Spotify's REST API
-              Voting-based playlist creation app built with Spotify's REST API
-              Voting-based playlist creation app built with Spotify's REST API
+              TuneSquad is a playlist-creation app based on a voting system,
+              built using React, Spotify APIs and
+              Express. Users can add and rate songs on a voting playlist with
+              other members. Once the voting period is finished, the song
+              ratings are averaged based on the number of voters and a final
+              playlist is generated of songs with three
+              stars and up.
             </p>
             <a
               href="https://github.com/megsmcbride/TuneSquad"
               target="_blank"
               rel="noreferrer"
             >
-              github
-              <HiOutlineArrowNarrowRight />
-            </a>
+              view github             </a>
           </div>
         </Box>
         <Box className="item">
@@ -82,15 +81,17 @@ function Projects() {
               <li className="stack-item">Cypress</li>
             </ul>
 
-            <p>A mini e-commerce application built with Rails 6.1</p>
+            <p>
+              A mini e-commerce application built with Rails 6.1. Jungle allows
+              users to shop and buy plants by integrating Stripe Payment system.
+              Sellers can manage their inventory and sales.
+            </p>
             <a
               href="https://github.com/megsmcbride/Jungle-Rails"
               target="_blank"
               rel="noreferrer"
             >
-              github
-              <HiOutlineArrowNarrowRight />
-            </a>
+              view github             </a>
           </div>
         </Box>
 
@@ -99,7 +100,7 @@ function Projects() {
             <div className="image-container">
               <img src={scheduler} alt="scheduler" />
             </div>
-            <h1>Scheduler</h1>
+            <h1>Interview Scheduler</h1>
             <ul className="project-tech-stack">
               <li className="stack-item">Javascript</li>
               <li className="stack-item">SASS</li>
@@ -107,17 +108,19 @@ function Projects() {
               <li className="stack-item">React</li>
               <li className="stack-item">Storybook</li>
               <li className="stack-item">Jest</li>
-              <li className="stack-item">Cypress</li>
             </ul>
-            <p>React SPA that allows users to book interview time slots</p>
+            <p>
+              Interview Scheduler is a single-page application built with React.
+              It allows users to book, edit and cancel interview time slots.
+              This project was tested using Jest and Storybook throughout its
+              development.{" "}
+            </p>
             <a
               href="https://github.com/megsmcbride/scheduler"
               target="_blank"
               rel="noreferrer"
             >
-              github
-              <HiOutlineArrowNarrowRight />
-            </a>
+              view github             </a>
           </div>
         </Box>
         <Box className="item">
@@ -135,14 +138,13 @@ function Projects() {
               <li className="stack-item">NodeJS</li>
               <li className="stack-item">Express</li>
             </ul>
-            <p>SPA Twitter clone</p>
+            <p>Tweeter is a simple, single-page Twitter clone.</p>
             <a
               href="https://github.com/megsmcbride/tweeter"
               target="_blank"
               rel="noreferrer"
             >
-              github
-            </a>
+              view github             </a>
           </div>
         </Box>
         <Box className="item">
@@ -153,12 +155,10 @@ function Projects() {
             <h1>LooseLeaf</h1>
             <ul className="project-tech-stack">
               <li className="stack-item">HTML</li>
-              <li className="stack-item">CSS</li>
+              <li className="stack-item">SCSS</li>
               <li className="stack-item">Javascript</li>
-              <li className="stack-item">JQuery</li>
-              <li className="stack-item">AJAX</li>
-              <li className="stack-item">NodeJS</li>
-              <li className="stack-item">Express</li>
+              <li className="stack-item">Bootstrap</li>
+              <li className="stack-item">PostgreSQL</li>
             </ul>
             <p>
               Resource app where users can create and store links to outside
@@ -169,9 +169,7 @@ function Projects() {
               target="_blank"
               rel="noreferrer"
             >
-              github
-              <HiOutlineArrowNarrowRight />
-            </a>
+              view github             </a>
           </div>
         </Box>
       </SimpleGrid>
