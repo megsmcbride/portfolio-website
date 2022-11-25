@@ -2,17 +2,15 @@
 
 body {
   background-color: #eddcd9;
-  font-family: 'Righteous', cursive;
+  font-family: "Righteous", cursive;
   overflow-x: hidden;
 }
- .content{
-  font-family: 'Righteous', cursive;
+.content {
+  font-family: "Righteous", cursive;
   position: relative;
   overflow-x: hidden;
   overflow-y: hidden;
- }
-
-
+}
 
 .rectangle1 {
   margin: auto;
@@ -92,15 +90,13 @@ body {
   border-left-color: #92dae6;
 }
 
-
-
 section {
   display: grid;
   place-items: center;
   min-height: 100vh;
   font-weight: 100;
   margin-top: 0;
- } 
+}
 
 .nav {
   display: flex;
@@ -115,9 +111,8 @@ section {
   background-color: #f2ebe9;
   padding: 0 1rem;
   box-shadow: 0 0.125rem 0.25rem 0 rgb(0 0 0 / 11%);
-  font-family: 'Righteous', cursive;
+  font-family: "Righteous", cursive;
   color: #de5499;
- 
 
 }
 
@@ -134,6 +129,7 @@ section {
 
 .nav img {
   width: 160px;
+  animation: nav-load 500ms ease-in;
 }
 
 .nav__container__actions {
@@ -143,10 +139,11 @@ section {
   flex-flow: row nowrap;
   padding-left: 50px;
   flex: 1;
+  animation: nav-load-links 500ms ease-in;
 }
 
 .active {
-  color:#e99f4c;
+  color: #e99f4c;
 }
 
 ul {
@@ -155,7 +152,6 @@ ul {
   list-style: none;
   padding: 0;
 }
-
 
 li {
   cursor: pointer;
@@ -169,16 +165,15 @@ li:hover {
   color: #264143;
 }
 
-
 .website-links {
-display: flex;
-flex-direction: row;
-margin-left: auto;
-margin-right: 20px;
-align-items: center;
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: 20px;
+  align-items: center;
 }
 
-.nav__container__actions ul{
+.nav__container__actions ul {
   gap: 1rem;
 }
 
@@ -194,29 +189,23 @@ h1 {
 }
 
 .social-svg:hover {
-  color:#e99f4c;
+  color: #e99f4c;
 }
 
-
-@media screen and (max-width: 768px) { 
+@media screen and (max-width: 768px) {
   a {
     font-size: 2.7vw;
   }
- .nav img {
-  width: 20vw;
- }
-
+  .nav img {
+    width: 20vw;
+  }
 }
 
-
-
-@media screen and (max-width: 1500px){ 
-
-
+@media screen and (max-width: 1500px) {
   .rectangle1 {
     height: 1000vh;
   }
-  
+
   .rectangle2 {
     height: 1000vh;
   }
@@ -227,10 +216,28 @@ h1 {
     height: 1000vh;
   }
   .rectangle5 {
-
     height: 1000vh;
   }
+}
+
+@keyframes nav-load {
+  0% {
+    transform: translateX(-200%);
+
+  }
   
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+@keyframes nav-load-links {
+  0% {
+    transform: translateX(100%);
+
+  }
   
- 
- }
+  100% {
+    transform: translateX(0%);
+  }
+}
