@@ -3,6 +3,7 @@
   flex-direction: column;
   align-items: center;
   width: 90rem;
+  margin-top: 10vh;
 }
 
 .item {
