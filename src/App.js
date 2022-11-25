@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./css/App.css";
 import "./css/Intro.css";
 import "./css/Contact.css";
@@ -20,7 +20,7 @@ function App() {
 
 
   window.history.pushState({}, null, "/");
-  $(document).ready(function () {
+  $(document).ready(function() {
     $(".rectangle1").stop(true).animate(
       {
         left: "97%",
@@ -61,33 +61,33 @@ function App() {
     <div>
       <div className="App">
         <header className="nav">
-              <img src={logo} alt="logo" />
+          <img src={logo} alt="logo" />
           <nav className="nav__container__actions">
             <div className="actions-links">
-            <ul>
-         
-           
-              <li>
-                <Link smooth spy to="home">
-                  HOME
-                </Link>
-              </li>
-              <li>
-                <Link smooth spy to="about">
-                  ABOUT
-                </Link>
-              </li>
-              <li>
-                <Link smooth spy to="projects">
-                  PROJECTS
-                </Link>
-              </li>
-              <li>
-                <Link smooth spy to="contact">
-                  CONTACT
-                </Link>
-              </li>
-            </ul>
+              <ul>
+
+
+                <li>
+                  <Link smooth spy to="home">
+                    HOME
+                  </Link>
+                </li>
+                <li>
+                  <Link smooth spy to="about">
+                    ABOUT
+                  </Link>
+                </li>
+                <li>
+                  <Link smooth spy to="projects">
+                    PROJECTS
+                  </Link>
+                </li>
+                <li>
+                  <Link smooth spy to="contact">
+                    CONTACT
+                  </Link>
+                </li>
+              </ul>
             </div>
           </nav>
         </header>
