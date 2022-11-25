@@ -1,22 +1,31 @@
 import me from "../images/me.jpeg";
+import { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
+
+
 function About() {
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  }, []);
+
   return (
     <div>
-      <div className="about-container">
-        <h1 className="about-header">About</h1>
-        <div className="about-section">
-          <div className="details">
-            <strong className="about-intro">Hello, Welcome <br/> I'm Megan McBride</strong>
+      <div className="about-container" >
+        <h1 className="about-header" data-aos="slide-up" >About</h1>
+        <div className="about-section" >
+          <div className="details" data-aos="fade-right">
+            <strong className="about-intro">Hello, Welcome <br /> I'm Megan McBride</strong>
 
-        
+
             <p>
               I'm a
               <span className="details-accents"> Full-Stack Web Developer </span>
               specalizing in Front-end development. I have my HBSc in
               <i> Neuroscience </i> from the University of Toronto and recently graduate from
               Lighthouse labs Full-Stack Web development Bootcamp.
-              <br/>
-              <br/>
+              <br />
+              <br />
 
               I'm passionate about creating visually intriguing
               <i> web designs </i>
@@ -38,7 +47,7 @@ function About() {
 
             <br />
           </div>
-          <div className="right-details">
+          <div className="right-details" data-aos="fade-left">
             <img className="photo-me" src={me} alt="megan" />
             <div className="tech-stack">
               <p style={{ marginTop: 0 }}> Languages: </p>

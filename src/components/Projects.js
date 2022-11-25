@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect} from "react";
 import { SimpleGrid, Box } from "@chakra-ui/react";
 import tunesquad from "../images/tunesquad.gif";
 import jungle from "../images/jungle.png";
@@ -6,16 +6,22 @@ import tweeter from "../images/tweeter.gif";
 import scheduler from "../images/scheduler.gif";
 import looseleaf from "../images/looseleaf.gif";
 import portfolio from "../images/portfolio.gif";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 function Projects() {
+
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  }, []);
   return (
-    <div className="projects-container">
+    <div className="projects-container" data-aos="fade-up">
       <h1>Projects</h1>
 
       <SimpleGrid minChildWidth="400px" spacing="20px">
-        <Box className="item">
-          <div>
-            <div className="image-container">
+        <Box className="item" >
+          <div >
+            <div className="image-container" >
               <img src={portfolio} alt="portfolio" />
             </div>
             <h1>Portfolio</h1>
