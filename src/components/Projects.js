@@ -15,11 +15,11 @@ function Projects() {
     Aos.init({ duration: 1000 });
   }, []);
   return (
-    <div className="projects-container" data-aos="fade-up">
+    <div className="projects-container">
       <h1>Projects</h1>
 
       <SimpleGrid minChildWidth="400px" spacing="20px">
-        <Box className="item" >
+        <Box className="item" data-aos="fade-up" >
           <div >
             <div className="image-container" >
               <img src={portfolio} alt="portfolio" />
@@ -44,7 +44,7 @@ function Projects() {
               view github             </a>
           </div>
         </Box>
-        <Box className="item">
+        <Box className="item" data-aos="fade-up">
           <div>
             <div className="image-container">
               <img src={tunesquad} alt="tunesquad" />
@@ -74,7 +74,7 @@ function Projects() {
               view github             </a>
           </div>
         </Box>
-        <Box className="item">
+        <Box className="item" data-aos="fade-up">
           <div>
             <div className="image-container">
               <img src={jungle} alt="jungle" />
@@ -101,7 +101,7 @@ function Projects() {
           </div>
         </Box>
 
-        <Box className="item">
+        <Box className="item" data-aos="fade-up">
           <div>
             <div className="image-container">
               <img src={scheduler} alt="scheduler" />
@@ -129,7 +129,7 @@ function Projects() {
               view github             </a>
           </div>
         </Box>
-        <Box className="item">
+        <Box className="item" data-aos="fade-up">
           <div>
             <div className="image-container">
               <img src={tweeter} alt="tweeter" />
@@ -153,7 +153,7 @@ function Projects() {
               view github             </a>
           </div>
         </Box>
-        <Box className="item">
+        <Box className="item" data-aos="fade-up">
           <div>
             <div className="image-container">
               <img src={looseleaf} alt="looseleaf" />
