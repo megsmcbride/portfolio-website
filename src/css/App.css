@@ -134,7 +134,7 @@ section {
 
 .nav__container__actions {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   display: inline-flex;
   flex-flow: row nowrap;
   padding-left: 50px;
