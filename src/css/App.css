@@ -4,7 +4,9 @@ body {
   background-color: #eddcd9;
   font-family: "Righteous", cursive;
   overflow-x: hidden;
+  overflow-y: scroll;
 }
+
 .content {
   font-family: "Righteous", cursive;
   position: relative;

@@ -68,22 +68,22 @@ function App() {
 
 
                 <li>
-                  <Link smooth spy to="home">
+                  <Link smooth spy to="home" duration={500}>
                     HOME
                   </Link>
                 </li>
                 <li>
-                  <Link smooth spy to="about">
+                  <Link smooth spy to="about" duration={500}>
                     ABOUT
                   </Link>
                 </li>
                 <li>
-                  <Link smooth spy to="projects">
+                  <Link smooth spy to="projects" duration={500}>
                     PROJECTS
                   </Link>
                 </li>
                 <li>
-                  <Link smooth spy to="contact">
+                  <Link smooth spy to="contact" duration={500}>
                     CONTACT
                   </Link>
                 </li>
