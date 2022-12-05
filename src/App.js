@@ -104,6 +104,7 @@ function App() {
           <section id="contact">
             <Contact />
           </section>
+      <p className="copyright"> Ⓒ 2022 Megan McBride All Rights Reserved</p>
           <div className="rectangle5"></div>
           <div className="rectangle4"></div>
           <div className="rectangle3"></div>
