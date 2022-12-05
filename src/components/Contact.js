@@ -1,6 +1,8 @@
-import React, { useRef, useState } from "react";
+import React, { useRef, useState, useEffect } from "react";
 import emailjs from '@emailjs/browser';
 import { SocialIcon } from "react-social-icons";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 function Contact() {
   const [linkedInIconColor, setLinkedInIconColor] = useState("#de5499");
@@ -21,11 +23,14 @@ function Contact() {
     e.target.reset()
   };
 
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  }, []);
 
   return (
     <>
-    <div className="contact-container">
-      <div className="contact-left-side">
+    <div className="contact-container" >
+      <div className="contact-left-side" data-aos="fade-right">
 
       <h4 className="lets-chat">Let's Chat!</h4>
       <p className="contact-intro">Reach me via the form or my socials below
@@ -66,7 +71,7 @@ function Contact() {
             </div>
       </div>
 
-      <form className="contact-form" ref={form} onSubmit={(e) => sendEmail(e)}>
+      <form className="contact-form" ref={form} onSubmit={(e) => sendEmail(e)} data-aos="fade-left">
         { emailSent ? (<p> Message sent </p>) : (<>
           <input type="text" name="name" placeholder="Name"/>
           <input type="email" name="email" placeholder="Email address"/>
