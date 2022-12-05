@@ -1,4 +1,4 @@
-import React, { useEffect} from "react";
+import React, { useEffect } from "react";
 import { SimpleGrid, Box } from "@chakra-ui/react";
 import tunesquad from "../images/tunesquad.gif";
 import jungle from "../images/jungle.png";
@@ -10,7 +10,6 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 
 function Projects() {
-
   useEffect(() => {
     Aos.init({ duration: 1000 });
   }, []);
@@ -19,9 +18,9 @@ function Projects() {
       <h1>Projects</h1>
 
       <SimpleGrid minChildWidth="400px" spacing="20px">
-        <Box className="item" data-aos="fade-up" >
-          <div >
-            <div className="image-container" >
+        <Box className="item" data-aos="fade-up">
+          <div>
+            <div className="image-container">
               <img src={portfolio} alt="portfolio" />
             </div>
             <h1>Portfolio</h1>
@@ -41,7 +40,8 @@ function Projects() {
               target="_blank"
               rel="noreferrer"
             >
-              view github             </a>
+              view github →
+            </a>
           </div>
         </Box>
         <Box className="item" data-aos="fade-up">
@@ -59,19 +59,19 @@ function Projects() {
             </ul>
             <p>
               TuneSquad is a playlist-creation app based on a voting system,
-              built using React, Spotify APIs and
-              Express. Users can add and rate songs on a voting playlist with
-              other members. Once the voting period is finished, the song
-              ratings are averaged based on the number of voters and a final
-              playlist is generated of songs with three
-              stars and up.
+              built using React, Spotify APIs and Express. Users can add and
+              rate songs on a voting playlist with other members. Once the
+              voting period is finished, the song ratings are averaged based on
+              the number of voters and a final playlist is generated of songs
+              with three stars and up.
             </p>
             <a
               href="https://github.com/megsmcbride/TuneSquad"
               target="_blank"
               rel="noreferrer"
             >
-              view github             </a>
+              view github →
+            </a>
           </div>
         </Box>
         <Box className="item" data-aos="fade-up">
@@ -97,7 +97,8 @@ function Projects() {
               target="_blank"
               rel="noreferrer"
             >
-              view github             </a>
+              view github →
+            </a>
           </div>
         </Box>
 
@@ -119,14 +120,15 @@ function Projects() {
               Interview Scheduler is a single-page application built with React.
               It allows users to book, edit and cancel interview time slots.
               This project was tested using Jest and Storybook throughout its
-              development.{" "}
+              development.
             </p>
             <a
               href="https://github.com/megsmcbride/scheduler"
               target="_blank"
               rel="noreferrer"
             >
-              view github             </a>
+              view github →
+            </a>
           </div>
         </Box>
         <Box className="item" data-aos="fade-up">
@@ -144,13 +146,18 @@ function Projects() {
               <li className="stack-item">NodeJS</li>
               <li className="stack-item">Express</li>
             </ul>
-            <p>Tweeter is a simple, single-page Twitter clone built with NodeJS. Users can create posts and view previous postings in chronological order.</p>
+            <p>
+              Tweeter is a simple, single-page Twitter clone built with NodeJS.
+              Users can create posts and view previous postings in chronological
+              order.
+            </p>
             <a
               href="https://github.com/megsmcbride/tweeter"
               target="_blank"
               rel="noreferrer"
             >
-              view github             </a>
+              view github →
+            </a>
           </div>
         </Box>
         <Box className="item" data-aos="fade-up">
@@ -167,15 +174,17 @@ function Projects() {
               <li className="stack-item">PostgreSQL</li>
             </ul>
             <p>
-              Looseleaf is a resource app where users can create and store links to outside
-              resources for later viewing. Built using NodeJS and EJS.
+              Looseleaf is a resource app where users can create and store links
+              to outside resources for later viewing. Built using NodeJS and
+              EJS.
             </p>
             <a
               href="https://github.com/megsmcbride/LooseLeaf"
               target="_blank"
               rel="noreferrer"
             >
-              view github             </a>
+              view github →
+            </a>
           </div>
         </Box>
       </SimpleGrid>
