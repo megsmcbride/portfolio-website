@@ -25,26 +25,15 @@ function Contact() {
   return (
     <>
     <div className="contact-container">
+      <div className="contact-left-side">
+
       <h4 className="lets-chat">Let's Chat!</h4>
-      <p className="contact-intro">Feel free to reach out to me via the form below or on <a className="linkedin-link" href="https://www.linkedin.com/in/megsmcbride"> LinkedIn</a></p>
-      <div >
-      <form className="contact-form" ref={form} onSubmit={(e) => sendEmail(e)}>
-        { emailSent ? (<p> Message sent </p>) : (<>
-          <label>Name:</label>
-          <input type="text" name="name" placeholder="Enter your name"/>
+      <p className="contact-intro">Reach me via the form or my socials below
 
-          <label>Email:</label>
-          <input type="email" name="email" placeholder="Enter your email address"/>
-
-          <label>Message:</label>
-          <textarea name="message" placeholder="Enter your message"/>
-          <button  type="submit" value="Send" > Send </button>
-        </>
-          )
-        }
-        </form>
-
-        <div className="website-links">
+     </p>
+     <br/>
+     <p className="header-socials">FIND ME</p>
+      <div className="website-links">
               <SocialIcon
                 onMouseEnter={() => setGithubIconColor("#e99f4c")}
                 onMouseLeave={() => setGithubIconColor("#de5499")}
@@ -76,6 +65,19 @@ function Contact() {
               />
             </div>
       </div>
+
+      <form className="contact-form" ref={form} onSubmit={(e) => sendEmail(e)}>
+        { emailSent ? (<p> Message sent </p>) : (<>
+          <input type="text" name="name" placeholder="Name"/>
+          <input type="email" name="email" placeholder="Email address"/>
+          <textarea name="message" placeholder="Message"/>
+          <button  type="submit" value="Send" > Send </button>
+        </>
+          )
+        }
+        </form>
+
+
     </div>
     </>
   );

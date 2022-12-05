@@ -170,7 +170,6 @@ li:hover {
 .website-links {
   display: flex;
   flex-direction: row;
-  margin-left: auto;
   margin-right: 20px;
   align-items: center;
 }
