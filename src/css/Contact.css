@@ -20,7 +20,7 @@
 .contact-container {
   display: flex;
   flex-direction: row;
-  width: 70vw;
+  width: 60vw;
 }
 
 .contact-form input {
