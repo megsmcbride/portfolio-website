@@ -30,7 +30,6 @@
   display: flex;
   justify-content: center;
   color: #e99f4c;
-
 }
 
 .project-tech-stack {
@@ -64,9 +63,8 @@
   font-size: 2rem;
 }
 .item a:hover {
-  color:#de5499;
+  color: #de5499;
 }
-
 
 @media screen and (max-width: 2100px) {
   .projects-container {
