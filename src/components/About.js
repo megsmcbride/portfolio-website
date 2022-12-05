@@ -21,29 +21,23 @@ function About() {
             <p>
               I'm a
               <span className="details-accents"> Full-Stack Web Developer </span>
-              specalizing in Front-end development. I have my HBSc in
-              <i> Neuroscience </i> from the University of Toronto and recently graduate from
-              Lighthouse labs Full-Stack Web development Bootcamp.
+              with a passion for front-end development.
+              I have my HBSc. degree in Neuroscience from <i>The University of Toronto </i>and completed
+              <i> Lighthouse Labs</i>  Full-Stack Web Development Bootcamp.
               <br />
               <br />
 
-              I'm passionate about creating visually intriguing
-              <i> web designs </i>
-              and using my <i>problem-solving skills </i>to come to unique
-              solutions.
+              I am passionate about creating visually intriguing web designs, using my
+              problem-solving skills to come to unique solutions and learning new languages and software.
+              I'm currently working on refactoring and deploying a past project TuneSquad and learning
+              Typescript.
               <br />
               <br />
-              I'm also an
-              <span className="details-accents"> Avid Reader. </span>
-              Some of my favourites are Slaughterhouse-five by Kurt Vonnegut, A
-              Monster Calls by Patrick Ness and In the Dream House by Carmen
-              Maria Machado.
+
+              When I'm not programming you can find me reading. Some of my favourite books are Slaughterhouse-five by Kurt Vonnegut, A
+              Monster Calls by Patrick Ness and In the Dream House by Carmen Maria Machado.
             </p>
-            <p>
-              Currently learning
-              <span className="details-accents">TypeScript</span> and
-              <span className="details-accents"> Angular.</span>
-            </p>
+
 
             <br />
           </div>
