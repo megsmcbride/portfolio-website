@@ -144,7 +144,7 @@ function Projects() {
               <li className="stack-item">NodeJS</li>
               <li className="stack-item">Express</li>
             </ul>
-            <p>Tweeter is a simple, single-page Twitter clone.</p>
+            <p>Tweeter is a simple, single-page Twitter clone built with NodeJS. Users can create posts and view previous postings in chronological order.</p>
             <a
               href="https://github.com/megsmcbride/tweeter"
               target="_blank"
@@ -167,8 +167,8 @@ function Projects() {
               <li className="stack-item">PostgreSQL</li>
             </ul>
             <p>
-              Resource app where users can create and store links to outside
-              resources for later viewing
+              Looseleaf is a resource app where users can create and store links to outside
+              resources for later viewing. Built using NodeJS and EJS.
             </p>
             <a
               href="https://github.com/megsmcbride/LooseLeaf"
