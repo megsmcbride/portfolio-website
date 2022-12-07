@@ -34,7 +34,11 @@
 
 .contact-form input:focus {
   outline: none;
-  background-color: #d3c1bb;
+  background-color: #e2ccc5;
+}
+.contact-form input:hover {
+  background-color: #e2ccc5;
+
 }
 
 .header-socials {
@@ -47,7 +51,7 @@
 
 .contact-form textarea:focus {
   outline: none;
-  background-color: #d3c1bb;
+  background-color: #e2ccc5;
 }
 
 .contact-intro {
@@ -83,6 +87,10 @@
   font-family: "Lato", sans-serif;
   border: none;
   resize: none;
+}
+
+.contact-form textarea:hover {
+  background-color: #e2ccc5;
 }
 
 .contact-form button {
