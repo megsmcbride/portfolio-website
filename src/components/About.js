@@ -20,12 +20,12 @@ function About() {
 
             <p>
             Hi there!
+            <br/>
 My name is Megan McBride
-a multi-faceted creative powerhouse specializing in front-end development, UX / UI design and the realm of video editing and production. With a background in Neuroscience, I bring a unique perspective to my work, seamlessly fusing my understanding of human cognition with design principles. The result? A truly magical user experience that will leave you spellbound!
-
+a multi-faceted creative powerhouse specializing in front-end development, UX/UI design and the realm of video editing and production. With a background in Neuroscience, I bring a unique perspective to my work, seamlessly fusing my understanding of human cognition with design principles. Aiming to create a truly magical user experience that will leave you spellbound!
+<br/>
 From crafting enchanting websites that transport users into captivating digital worlds, to producing engaging videos that charm audiences, my drive comes from a deep passion for creating unforgettable experiences.
 
-So join me on this exciting journey as we dive into digital art that leaves a lasting impact. Together, we'll create an experience that's nothing short of extraordinary!
             </p>
 
 
