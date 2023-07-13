@@ -19,23 +19,13 @@ function About() {
 
 
             <p>
-              I'm a
-              <span className="details-accents"> Full-Stack Web Developer </span>
-              with a passion for front-end development.
-              I have my HBSc. degree in Neuroscience from <i>The University of Toronto </i>and completed
-              <i> Lighthouse Labs</i>  Full-Stack Web Development Bootcamp.
-              <br />
-              <br />
+            Hi there!
+My name is Megan McBride
+a multi-faceted creative powerhouse specializing in front-end development, UX / UI design and the realm of video editing and production. With a background in Neuroscience, I bring a unique perspective to my work, seamlessly fusing my understanding of human cognition with design principles. The result? A truly magical user experience that will leave you spellbound!
 
-              I am passionate about creating visually intriguing web designs, using my
-              problem-solving skills to come to unique solutions and learning new languages and software.
-              I'm currently working on refactoring and deploying a past project TuneSquad and learning
-              Typescript.
-              <br />
-              <br />
+From crafting enchanting websites that transport users into captivating digital worlds, to producing engaging videos that charm audiences, my drive comes from a deep passion for creating unforgettable experiences.
 
-              When I'm not programming you can find me reading. Some of my favourite books are Slaughterhouse-five by Kurt Vonnegut, A
-              Monster Calls by Patrick Ness and In the Dream House by Carmen Maria Machado.
+So join me on this exciting journey as we dive into digital art that leaves a lasting impact. Together, we'll create an experience that's nothing short of extraordinary!
             </p>
 
 
