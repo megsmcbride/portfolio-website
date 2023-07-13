@@ -15,15 +15,19 @@ function About() {
         <h1 className="about-header" data-aos="slide-up" >About</h1>
         <div className="about-section" >
           <div className="details" data-aos="fade-right">
-            <strong className="about-intro">Hello, Welcome <br /> I'm Megan McBride</strong>
+            <strong className="about-intro">  Hi there!<br /> My name is Megan McBride</strong>
 
 
             <p>
-            Hi there!
-            <br/>
-My name is Megan McBride
-a multi-faceted creative powerhouse specializing in front-end development, UX/UI design and the realm of video editing and production. With a background in Neuroscience, I bring a unique perspective to my work, seamlessly fusing my understanding of human cognition with design principles. Aiming to create a truly magical user experience that will leave you spellbound!
+
+a multi-faceted creative powerhouse specializing in front-end development, UX/UI design and the realm of video editing and production. 
 <br/>
+<br/>
+
+With a background in Neuroscience, I bring a unique perspective to my work, seamlessly fusing my understanding of human cognition with design principles. Aiming to create a truly magical user experience that will leave you spellbound!
+<br/>
+<br/>
+
 From crafting enchanting websites that transport users into captivating digital worlds, to producing engaging videos that charm audiences, my drive comes from a deep passion for creating unforgettable experiences.
 
             </p>
