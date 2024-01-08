@@ -6,6 +6,7 @@ import tweeter from "../images/tweeter.gif";
 import scheduler from "../images/scheduler.gif";
 import looseleaf from "../images/looseleaf.gif";
 import portfolio from "../images/portfolio.gif";
+import youandipaint from "../images/youandipaint"
 import Aos from "aos";
 import "aos/dist/aos.css";
 
@@ -18,6 +19,34 @@ function Projects() {
       <h1>Projects</h1>
 
       <SimpleGrid minChildWidth="400px" spacing="20px">
+      <Box className="item" data-aos="fade-up">
+          <div>
+            <div className="image-container">
+              <img src={youandipaint} alt="youandipaint" />
+            </div>
+            <h1>You and I Paint</h1>
+            <ul className="project-tech-stack">
+              <li className="stack-item">
+                Web Design
+              </li>
+              <li className="stack-item">Wordpress</li>
+              <li className="stack-item">Elementor</li>
+              <li className="stack-item">WooCommerce</li>
+              <li className="stack-item">Event Tickets</li>
+
+            </ul>
+            <p>
+              An E-commerce website created for a luxury sip and paint company using Elementor, The Events Calendar and WooCommerce. 
+            </p>
+            <a
+              href="https://youandipaint.com"
+              target="_blank"
+              rel="noreferrer"
+            >
+              view website →
+            </a>
+          </div>
+        </Box>
         <Box className="item" data-aos="fade-up">
           <div>
             <div className="image-container">
